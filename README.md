@@ -6,14 +6,15 @@ Takım X
 
 ## Takım Elemanları
 
-- John Doe: Product Owner
-- Jane Doe: Scrum Master
-- Atıl Samancıoğlu: Team Member/Developer
+- Ceren Özsayın: Product Owner
+- İrem Nur Eroğlu: Scrum Master
+- Ahmet Recep Ocak: Team Member/Developer
 - Resul KIZMAZ : Team Member/Developer
+- Çağlar Karahüseyin: Team Member/Developer
 
 ## Ürün İsmi
 
---Movie App--
+--Steam Game--
 
 ## Ürün Açıklaması
 
