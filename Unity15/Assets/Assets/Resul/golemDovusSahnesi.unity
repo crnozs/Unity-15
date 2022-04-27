@@ -177,7 +177,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damp: 3
   rotationSpeed: 8
+  sprintFov: 75
+  sprintButton: 304
+  walkButton: 99
   model: {fileID: 29321223}
+--- !u!114 &29321227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 29321222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bd3a3aca3bda70428af19ace9cfb793, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &227173958
 PrefabInstance:
   m_ObjectHideFlags: 0
