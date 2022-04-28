@@ -7,7 +7,9 @@ public class Controller : MonoBehaviour
     [Header("Metrics")]
     public float damp;
     [Range(1, 20)]
-    public float rotationSpeed; // 1-20 arasý dönüþ hýzý.
+    public float rotationSpeed; // 1-20 arasý DÝRACTÝONAL modda arasý dönüþ hýzý.
+    [Range(1, 20)]
+    public float strafeTurnSpeed; // 1-20 arasý STRAFE modda dönüþ hýzý.
     float normalFov;
     public float sprintFov;
 
@@ -34,38 +36,77 @@ public class Controller : MonoBehaviour
     // GÝDECEÐÝ YÖNÜ VE BU YÖNE TAKÝBÝ GERÇEKLEÞTÝRME
     private void LateUpdate()
     {
-        inputMove();
-        inputRotation();
+        
         Movement();
     }
+    //KARAKTERÝMÝZ ÝÇÝN HAREKET TÝPÝ BELÝRLEME
+    public enum MovementType
+    {
+        Strafe,
+        Directional
+    };
+    public MovementType hareketTipi;
+
+
     //KARAKTERÝN HANGÝ HIZDA HAREKET EDECEÐÝNÝ BELÝRLEME
     void Movement()
     {
-        stickDirection = new Vector3(inputX, 0, inputY);
 
-        if (Input.GetKey(sprintButton))
+        if (hareketTipi == MovementType.Strafe) // SAVAÞ ANINDA ÝKEN
         {
-            mainCam.fieldOfView = Mathf.Lerp(mainCam.fieldOfView, sprintFov, 2 * Time.deltaTime); // Karakter depar atarken hýzlanma efekti vermek için.
-
-            maxSpeed = 2;
-            inputX = 2* Input.GetAxis("Horizontal");
-            inputY = 2* Input.GetAxis("Vertical");
-
-        }else if (Input.GetKey(walkButton))
-        {
-            mainCam.fieldOfView = Mathf.Lerp(mainCam.fieldOfView, normalFov, 2 * Time.deltaTime); // Karakter depar atmazken hýzlanma efektini kaldýrmak için.
-
-            maxSpeed = 0.2f;
             inputX = Input.GetAxis("Horizontal");
             inputY = Input.GetAxis("Vertical");
 
-        }else
-        {
-            mainCam.fieldOfView = Mathf.Lerp(mainCam.fieldOfView, normalFov, 2 * Time.deltaTime); // Karakter depar atmazken hýzlanma efektini kaldýrmak için.
+            anim.SetFloat("iX", inputX, damp, Time.deltaTime * 10);
+            anim.SetFloat("iY", inputY, damp, Time.deltaTime * 10);
+            
 
-            maxSpeed = 1;
-            inputX = Input.GetAxis("Horizontal");
-            inputY = Input.GetAxis("Vertical");
+            var hareketEdiyor = inputX != 0 || inputY != 0;
+            if (hareketEdiyor)
+            {
+                float yawCamera = mainCam.transform.rotation.eulerAngles.y; // Kameramýzýn y açýsýnda dönüþ miktarýný tutalým
+                transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(0, yawCamera, 0), strafeTurnSpeed * Time.fixedDeltaTime); // Karakterimzin dönüþü kameranýn dönüþüne eþit oluyor.
+                anim.SetBool("isStrafeMoving", true);
+
+            }else
+            {
+                anim.SetBool("isStrafeMoving", false);
+            }
+
+
+        }
+
+        if (hareketTipi==MovementType.Directional) //SAVAÞ ANINDA DEÐÝL ÝKEN
+        {
+            stickDirection = new Vector3(inputX, 0, inputY);
+
+            inputMove();
+            inputRotation();
+
+            if (Input.GetKey(sprintButton))
+            {
+                mainCam.fieldOfView = Mathf.Lerp(mainCam.fieldOfView, sprintFov, 2 * Time.deltaTime); // Karakter depar atarken hýzlanma efekti vermek için.
+
+                maxSpeed = 2;
+                inputX = 2 * Input.GetAxis("Horizontal");
+                inputY = 2 * Input.GetAxis("Vertical");
+
+            }else if (Input.GetKey(walkButton))
+            {
+                mainCam.fieldOfView = Mathf.Lerp(mainCam.fieldOfView, normalFov, 2 * Time.deltaTime); // Karakter depar atmazken hýzlanma efektini kaldýrmak için.
+
+                maxSpeed = 0.2f;
+                inputX = Input.GetAxis("Horizontal");
+                inputY = Input.GetAxis("Vertical");
+
+            }else
+            {
+                mainCam.fieldOfView = Mathf.Lerp(mainCam.fieldOfView, normalFov, 2 * Time.deltaTime); // Karakter depar atmazken hýzlanma efektini kaldýrmak için.
+
+                maxSpeed = 1;
+                inputX = Input.GetAxis("Horizontal");
+                inputY = Input.GetAxis("Vertical");
+            }
         }
     }
 
@@ -74,7 +115,6 @@ public class Controller : MonoBehaviour
     {
         anim.SetFloat("Blend", Vector3.ClampMagnitude(stickDirection, maxSpeed).magnitude, damp, Time.deltaTime * 10); // Hýzýmýzý 0 ile belirlenen hýz arasýna ortalama deðer olarak Clamp'liyoruz.
     }
-
 
     void inputRotation()
     {
