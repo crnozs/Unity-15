@@ -7,6 +7,9 @@ public class WeaponController : MonoBehaviour // KARAKTERÝMÝZ SÝLAHLANDIÐI ZAMAN
 
     bool isStrafe = false;
     Animator anim;
+
+    public GameObject kilicEl;
+    public GameObject kilicSirt;
     
     void Start()
     {
@@ -34,5 +37,16 @@ public class WeaponController : MonoBehaviour // KARAKTERÝMÝZ SÝLAHLANDIÐI ZAMAN
         }
 
 
+    }
+
+    void equip()
+    {
+        kilicEl.SetActive(true);
+        kilicSirt.SetActive(false);
+    }
+    void unequip()
+    {
+        kilicSirt.SetActive(true);
+        kilicEl.SetActive(false);
     }
 }
