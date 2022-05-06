@@ -9,7 +9,7 @@ Takım X
 - Ceren Özsayın: Product Owner
 - İrem Nur Eroğlu: Scrum Master
 - Ahmet Recep Ocak: Team Member/Developer
-- Resul KIZMAZ : Team Member/Developer
+- Resul Kızmaz : Team Member/Developer
 - Çağlar Karahüseyin: Team Member/Developer
 
 ## Ürün İsmi
@@ -37,7 +37,7 @@ Takım X
 
 ## Product Backlog URL
 
-[Miro Backlog Board](https://miro.com/app/board/uXjVOSSCpsI=/)
+[Trello Kanban](https://trello.com/b/Wbsna4s3/unity-15)
 
 ---
 
