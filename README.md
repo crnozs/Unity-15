@@ -14,11 +14,11 @@ Takım: Snow Fox Games
 
 ## Ürün İsmi
 
---Steam Game--
+--Ruinic--
 
 ## Ürün Açıklaması
 
-- Movie App uygulamamız ile insanların izlemek istediği filmlere ve dizilere daha kolay karar vermesini sağlayacağız. İçerisinde binlerce filmi barındıran uygulamamız aynı zamanda Netflix, Prime vb. platformlarda yayınlanıp yayınlanmadığını ve IMDB puanlarını da gösterecek.
+- 
 
 ## Ürün Özellikleri
 
@@ -29,11 +29,10 @@ Takım: Snow Fox Games
 
 ## Hedef Kitle
 
-- Netflix kullanıcıları
-- Prime kullanıcıları
-- Sinema severler
-- Dizi severler
-- 15 - 65 yaş arası kullanıcılar
+- Bilgisayar oyuncuları
+- Macera oyunu severler
+- Puzzle oyunu severler
+- 12 yaş üzeri kullanıcılar
 
 ## Product Backlog URL
 
