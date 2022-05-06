@@ -1,6 +1,6 @@
 # Unity-15
 
-Takım X
+Takım: Snow Fox Games
 
 # Ürün İle İlgili Bilgiler
 
