@@ -14,7 +14,7 @@ Takım: Snow Fox Games
 
 ## Oyun İsmi
 
---Ruinic--
+-*Ruinic*-
 
 ## Oyun Açıklaması
 
