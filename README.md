@@ -12,27 +12,27 @@ Takım: Snow Fox Games
 - Resul Kızmaz : Team Member/Developer
 - Çağlar Karahüseyin: Team Member/Developer
 
-## Ürün İsmi
+## Oyun İsmi
 
 --Ruinic--
 
-## Ürün Açıklaması
+## Oyun Açıklaması
 
-- 
+- Evrenin sırlarını öğrenmek için yolculuğa atılmış olan Wince, kendisini bir uzay adasında bulur. Yolculuğuna devam edebilmek için portaldan geçmesi gerekmektedir fakat portalın parçaları eksik olduğundan portal çalışmamaktadır. Bu parçalar ise farklı evrenlere açılan üç portalda gizlidir. Uzay adasında diğer portallar hakkında bilgi edinerek bu parçaları merkez portal adasında birleştirmeyi düşünmektedir. Tüm parçaları topladığında ana portalı aktive ederek evrenin sırlarına giden portal da açılmış olacaktır.
 
-## Ürün Özellikleri
+## Oyun Özellikleri
 
-- Filmleri türüne göre ayırma
-- Filmlerin yönetmen, aktör, aktris vb. bilgilerini posteriyle birlikte gösterme
-- IMDB ve Rotten Tomatoes puanlarını gösterme
-- Netflix'te ve Prime'da bulunurluğunu gösterme
+- Her bir portal evreninde farklı oyun mekanikleri olacak (savaş, puzzle, kaçınma ve yerleştirme)
+- Her evrende başka bir evren için toplayabileceği güçlendirmeler haritanın belirli yerlerinde rastgele bulunacak
+- Bir evrenden portalın parçasını aldığında o portal kapanacak ve bir daha o portala giremeyecek
+- Tüm parçaları uzay adasında birleştirdiğinde karakteri amacına ulaştıracak portal açılacak
 
 ## Hedef Kitle
 
 - Bilgisayar oyuncuları
 - Macera oyunu severler
 - Puzzle oyunu severler
-- 12 yaş üzeri kullanıcılar
+- 12 yaş üzeri oyuncular
 
 ## Product Backlog URL
 
