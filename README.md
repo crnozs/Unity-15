@@ -4,7 +4,7 @@ Takım: Snow Fox Games
 
 # Ürün İle İlgili Bilgiler
 
-## Takım Elemanları
+## Takım 
 
 - Ceren Özsayın: Product Owner
 - İrem Nur Eroğlu: Scrum Master
