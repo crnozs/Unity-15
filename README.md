@@ -46,11 +46,11 @@ Takım: Snow Fox Games
 
 - **Sprint içinde tamamlanması tahmin edilen puan**: 100 Puan
 
-- **Puan tamamlama mantığı**: Backlog puanlaması 0, 1, 2, 3, 5, 8, 13 sayıları arasında yapılmaktadır. Toplamda proje boyunca tamamlanması gereken 380 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in en azından 100 ile başlaması gerektiğine karar verildi.
+- **Puan tamamlama mantığı**: Backlog puanlaması 0, 1, 2, 3, 5, 8, 13 sayıları arasında yapılmaktadır. Toplamda proje boyunca tamamlanması gereken 364 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in en azından 99 ile başlaması gerektiğine karar verildi.
 
-- **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur. 
+- **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. 
 
-Story'ler yapılacak işlere (task'lere) bölünmüştür. Kanban panosunda gözüken kırmızı item'lar yapılacak işleri (task) gösterirken, mavi item'lar story'leri temsil etmektedir.
+Story'ler yapılacak işlere (task'lere) bölünmüştür. Kanban panosunda gözüken to-do listesi yapılacak işleri (task) gösterirken, design ve  mechanics listeleri story'leri temsil etmektedir.
 
 - **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Slack üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 1 Daily Scrum Chats](https://github.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/blob/main/ProjectManagement/Sprint1Documents/DailyScrumMeetingNotesSprint1.docx?raw=true)
 
