@@ -61,8 +61,9 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
 
 - **Ürün Durumu**: Ekran görüntüleri:
   ![image](https://user-images.githubusercontent.com/104391555/167299284-4dc7ab05-39b3-4361-8862-7a9cd1be2ac9.png)
+  ![image](https://user-images.githubusercontent.com/104391555/167299405-32514341-2f00-48ba-aa31-1d2bf2e7b13e.png)
+  ![image](https://user-images.githubusercontent.com/104391555/167299436-862f79f2-b0d9-46b5-b84b-3e6c8a0c84ca.png)
 
-  ![Screenshot 2](https://github.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/blob/main/ProjectManagement/Sprint1Documents/productss2.png?raw=true)
 
 - **Sprint Review**: 
 Alınan kararlar: Oyunda, karakterin bulunduğu evren dışındaki diğer evrenlerde kullanabileceği güçlendiriciler gerektiğine karar verilmiştir. Büyülü orman evreni bu sprintte biteceği öngörüldüğünden bu değişiklik bir sonraki sprintte uygulanacaktır.  Sprint Review katılımcıları: İrem Nur Eroğlu, Ceren Özsayın, Ahmet Recep Ocak, Resul Kızmaz, Çağlar Karahüseyin.
