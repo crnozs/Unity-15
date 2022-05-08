@@ -40,7 +40,7 @@ Takım: Snow Fox Games
 
 ---
 
-# Sprint 1
+# SPRINT 1
 
 - **Sprint Notları**: User Story'ler product backlog'ların içine yazılmıştır. Product backlog item'lara tıklandığında hikayelerin detayları okunabilir.
 
@@ -68,7 +68,7 @@ Alınan kararlar: Oyunda, karakterin bulunduğu evren dışındaki diğer evrenl
 
 - **Sprint Retrospective:**
   - Genel toplantıların günleri ve saatleri kesin olarak kararlaştırılmıştır.
-  - Tahmin puanları gözden geçirilmeli ve sprint planlama toplantılarında gerekli geri bildirimlerin developer'lar tarafından verildiğine emin olunmalı
+  - Tahmin puanları incelenmeli ve sprint planlama toplantılarında gerekli geri bildirimlerin developer'lar tarafından verilecektir.
   - Unit test'ler için ayrılan efor/saat arttırılmalı 
 
 -**Diğer Notlar**:
@@ -76,11 +76,11 @@ Alınan kararlar: Oyunda, karakterin bulunduğu evren dışındaki diğer evrenl
 
 ---
 
-# Sprint 2
+# SPRINT 2
 
 
 ---
 
-# Sprint 3
+# SPRINT 3
 
 ---
