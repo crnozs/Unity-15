@@ -190,7 +190,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: "sald\u0131r1"
-  m_Speed: 1.21
+  m_Speed: 1.4
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -3270636815484438957}
@@ -367,9 +367,9 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 0.43651676
+  m_TransitionDuration: 0.22022474
   m_TransitionOffset: 0
-  m_ExitTime: 0.6559645
+  m_ExitTime: 0.7821349
   m_HasExitTime: 1
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
@@ -650,7 +650,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: "sald\u0131r3"
-  m_Speed: 1.21
+  m_Speed: 1.4
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 1360611014990140560}
@@ -812,7 +812,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: "sald\u0131r2"
-  m_Speed: 1.21
+  m_Speed: 1.4
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 9071776360837393560}
@@ -1288,9 +1288,9 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 0.44073033
+  m_TransitionDuration: 0.24691021
   m_TransitionOffset: 0
-  m_ExitTime: 0.67712086
+  m_ExitTime: 0.76280975
   m_HasExitTime: 1
   m_HasFixedDuration: 1
   m_InterruptionSource: 0

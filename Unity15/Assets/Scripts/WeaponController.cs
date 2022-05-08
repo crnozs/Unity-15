@@ -38,32 +38,34 @@ public class WeaponController : MonoBehaviour // KARAKTERÝMÝZ SÝLAHLANDIÐI ZAMAN
 
         if (Input.GetKeyDown(KeyCode.Mouse0) && isStrafe==true && canAttack==true) //Kýlýçla vurmak
         {
-            attackIndex = Random.Range(0, 3);
-            anim.SetInteger("attackIndex", attackIndex);
+            //attackIndex = Random.Range(0, 3);
+            //anim.SetInteger("attackIndex", attackIndex);
+            attackIndex = 0;
 
-
-
-            anim.SetTrigger("attack");
-            /*
             if (attackIndex==0)
             {
-                anim.SetInteger("attacIndex", 1);
+                anim.SetInteger("attackIndex", attackIndex);                
+                anim.SetTrigger("attack");
+                attackIndex = 2;
+
+            }
+            else if (attackIndex == 1)
+            {
+                anim.SetInteger("attackIndex", attackIndex);
+                anim.SetTrigger("attack");
                 attackIndex = 2;
                 
-            }
-            if (attackIndex == 1)
-            {
-                anim.SetInteger("attackIndex", 2);
-                attackIndex = 2;
 
             }
 
-            if (attackIndex == 2)
+            else if (attackIndex == 2)
             {
-                anim.SetInteger("attacIndex", 3);
-                attackIndex = 1;
+                anim.SetInteger("attackIndex", attackIndex);
+                anim.SetTrigger("attack");
+                attackIndex = 0;
+                
             }
-            */
+            
         }
         if (Input.GetKeyDown(KeyCode.Mouse1) && isStrafe == true && canAttack == true) // Block Yapmak
         {
