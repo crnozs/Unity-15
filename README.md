@@ -44,7 +44,7 @@ Takım: Snow Fox Games
 
 - **Sprint Notları**: User Story'ler product backlog'ların içine yazılmıştır. Product backlog item'lara tıklandığında hikayelerin detayları okunabilir.
 
-- **Sprint içinde tamamlanması tahmin edilen puan**: 100 Puan
+- **Sprint içinde tamamlanması tahmin edilen puan**: 99 Puan
 
 - **Puan tamamlama mantığı**: Backlog puanlaması 0, 1, 2, 3, 5, 8, 13 sayıları arasında yapılmaktadır. Toplamda proje boyunca tamamlanması gereken 364 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in en azından 99 ile başlaması gerektiğine karar verildi.
 
