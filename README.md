@@ -50,7 +50,7 @@ Takım: Snow Fox Games
 
 - **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur. 
 
-Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözüken kırmızı item'lar yapılacak işleri (task) gösterirken, mavi item'lar story'leri temsil etmektedir.
+Story'ler yapılacak işlere (task'lere) bölünmüştür. Kanban panosunda gözüken kırmızı item'lar yapılacak işleri (task) gösterirken, mavi item'lar story'leri temsil etmektedir.
 
 - **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Slack üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 1 Daily Scrum Chats](https://github.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/blob/main/ProjectManagement/Sprint1Documents/DailyScrumMeetingNotesSprint1.docx?raw=true)
 
@@ -60,7 +60,6 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
 ![Backlog 3](https://raw.githubusercontent.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/main/ProjectManagement/Sprint1Documents/backlog3.png)
 
 - **Ürün Durumu**: Ekran görüntüleri:
-- 
 ![image](https://user-images.githubusercontent.com/104391555/167299284-4dc7ab05-39b3-4361-8862-7a9cd1be2ac9.png)
 ![image](https://user-images.githubusercontent.com/104391555/167299405-32514341-2f00-48ba-aa31-1d2bf2e7b13e.png)
 ![image](https://user-images.githubusercontent.com/104391555/167299436-862f79f2-b0d9-46b5-b84b-3e6c8a0c84ca.png)
@@ -71,8 +70,8 @@ Alınan kararlar: Oyunda, karakterin bulunduğu evren dışındaki diğer evrenl
 
 - **Sprint Retrospective:**
   - Genel toplantıların günleri ve saatleri kesin olarak kararlaştırılmıştır.
-  - Tahmin puanları incelenmeli ve sprint planlama toplantılarında gerekli geri bildirimlerin developer'lar tarafından verilecektir.
-  - Unit test'ler için ayrılan efor/saat arttırılmalı 
+  - Tahmin puanları incelenecek ve sprint planlama toplantılarında gerekli geri bildirimler developerlar tarafından verilecektir.
+  - Tasarımcılar arası iş bölümü düzenlenecektir. 
 
 -**Diğer Notlar**:
 - N/A
