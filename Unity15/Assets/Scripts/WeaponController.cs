@@ -5,7 +5,6 @@ using UnityEngine;
 public class WeaponController : MonoBehaviour // KARAKTERÝMÝZ SÝLAHLANDIÐI ZAMAN STRAFE MOVEMENT'E GEÇECEK
 {
 
-    int attackIndex=0;
     int kickIndex;
     bool canAttack = true;
     bool isStrafe = false;
@@ -13,12 +12,17 @@ public class WeaponController : MonoBehaviour // KARAKTERÝMÝZ SÝLAHLANDIÐI ZAMAN
 
     public GameObject kilicEl;
     public GameObject kilicSirt;
+    public GameObject trails;
+    public bool isRage = false;
+   
     
     void Start()
     {
         anim = GetComponent<Animator>();
+        trailClose();
+       
     }
-
+ 
    
     void Update()
     {
@@ -26,7 +30,7 @@ public class WeaponController : MonoBehaviour // KARAKTERÝMÝZ SÝLAHLANDIÐI ZAMAN
 
         if (Input.GetKeyDown(KeyCode.F))
         {
-            isStrafe = !isStrafe;
+            isStrafe = !isStrafe; 
         }
         
         if (Input.GetKeyDown(KeyCode.E)&&isStrafe==true&&canAttack==true) //Tekme atmak
@@ -35,35 +39,23 @@ public class WeaponController : MonoBehaviour // KARAKTERÝMÝZ SÝLAHLANDIÐI ZAMAN
             anim.SetInteger("kickIndex", kickIndex);
             anim.SetTrigger("kick");
         }
+        if (Input.GetKeyDown(KeyCode.R)&&isRage==true)
+        {
+            anim.SetTrigger("rage");
+        }
+
+        
 
         if (Input.GetKeyDown(KeyCode.Mouse0) && isStrafe==true && canAttack==true) //Kýlýçla vurmak
         {
-            //attackIndex = Random.Range(0, 3);
-            //anim.SetInteger("attackIndex", attackIndex);
-
-
-
+           
             anim.SetTrigger("attack");
-            
-            if (attackIndex==0)
-            {
-                anim.SetInteger("attacIndex", attackIndex);
-                attackIndex = 2;
-                
-            }
-            if (attackIndex == 1)
-            {
-                anim.SetInteger("attacIndex", attackIndex);
-                attackIndex = 2;
 
-            }
-
-            if (attackIndex == 2)
-            {
-                anim.SetInteger("attacIndex", attackIndex);
-                attackIndex = 0;
-            }
             
+
+
+
+
         }
         if (Input.GetKeyDown(KeyCode.Mouse1) && isStrafe == true && canAttack == true) // Block Yapmak
         {
@@ -96,5 +88,22 @@ public class WeaponController : MonoBehaviour // KARAKTERÝMÝZ SÝLAHLANDIÐI ZAMAN
     {
         kilicSirt.SetActive(true);
         kilicEl.SetActive(false);
+    }
+
+    void trailOpen()
+    {
+        for (int i = 0; i < trails.transform.childCount; i++)
+        {
+            trails.transform.GetChild(i).gameObject.GetComponent<TrailRenderer>().emitting = true;
+        }
+
+    }
+    void trailClose() 
+    {
+        for (int i = 0; i < trails.transform.childCount; i++)
+        {
+            trails.transform.GetChild(i).gameObject.GetComponent<TrailRenderer>().emitting = false;
+        }
+
     }
 }
