@@ -60,31 +60,16 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
 ![Backlog 3](https://raw.githubusercontent.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/main/ProjectManagement/Sprint1Documents/backlog3.png)
 
 - **Ürün Durumu**: Ekran görüntüleri:
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  ![Screenshot 1](![image](https://user-images.githubusercontent.com/104391555/167299132-11ef097a-cc49-40ce-9c8b-5ec69f3792a0.png))
-=======
-  ![image](https://user-images.githubusercontent.com/104391555/167299284-4dc7ab05-39b3-4361-8862-7a9cd1be2ac9.png)
+(![image](https://user-images.githubusercontent.com/104391555/167299132-11ef097a-cc49-40ce-9c8b-5ec69f3792a0.png))
+(![image](https://user-images.githubusercontent.com/104391555/167299284-4dc7ab05-39b3-4361-8862-7a9cd1be2ac9.png))
+(![image](https://user-images.githubusercontent.com/104391555/167299284-4dc7ab05-39b3-4361-8862-7a9cd1be2ac9.png))
 
->>>>>>> 4e9d79665c75d087c9595a9791c46e413d6644dd
-=======
-  ![image](https://user-images.githubusercontent.com/104391555/167299284-4dc7ab05-39b3-4361-8862-7a9cd1be2ac9.png)
 
->>>>>>> 4e9d79665c75d087c9595a9791c46e413d6644dd
   ![Screenshot 2](https://github.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/blob/main/ProjectManagement/Sprint1Documents/productss2.png?raw=true)
-=======
-=======
->>>>>>> 94c3674bf3db483617f8b42c8ee63189f10c9235
   ![image](https://user-images.githubusercontent.com/104391555/167299284-4dc7ab05-39b3-4361-8862-7a9cd1be2ac9.png)
   ![image](https://user-images.githubusercontent.com/104391555/167299405-32514341-2f00-48ba-aa31-1d2bf2e7b13e.png)
   ![image](https://user-images.githubusercontent.com/104391555/167299436-862f79f2-b0d9-46b5-b84b-3e6c8a0c84ca.png)
 
-<<<<<<< HEAD
->>>>>>> 94c3674bf3db483617f8b42c8ee63189f10c9235
-=======
->>>>>>> 94c3674bf3db483617f8b42c8ee63189f10c9235
 
 - **Sprint Review**: 
 Alınan kararlar: Oyunda, karakterin bulunduğu evren dışındaki diğer evrenlerde kullanabileceği güçlendiriciler gerektiğine karar verilmiştir. Büyülü orman evreni bu sprintte biteceği öngörüldüğünden bu değişiklik bir sonraki sprintte uygulanacaktır.  Sprint Review katılımcıları: İrem Nur Eroğlu, Ceren Özsayın, Ahmet Recep Ocak, Resul Kızmaz, Çağlar Karahüseyin.
