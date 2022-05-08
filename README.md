@@ -69,7 +69,7 @@ Alınan kararlar: Oyunda, karakterin bulunduğu evren dışındaki diğer evrenl
 - **Sprint Retrospective:**
   - Genel toplantıların günleri ve saatleri kesin olarak kararlaştırılmıştır.
   - Tahmin puanları incelenecek ve sprint planlama toplantılarında gerekli geri bildirimler developerlar tarafından verilecektir.
-  - Tasarımcılar arası iş bölümü düzenlenecektir. 
+  - Developerlar arası iş bölümü düzenlenecektir. 
 
 -**Diğer Notlar**:
 - N/A
