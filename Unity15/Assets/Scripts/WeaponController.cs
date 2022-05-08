@@ -5,7 +5,7 @@ using UnityEngine;
 public class WeaponController : MonoBehaviour // KARAKTERÝMÝZ SÝLAHLANDIÐI ZAMAN STRAFE MOVEMENT'E GEÇECEK
 {
 
-    int attackIndex;
+    int attackIndex=0;
     int kickIndex;
     bool canAttack = true;
     bool isStrafe = false;
@@ -40,30 +40,28 @@ public class WeaponController : MonoBehaviour // KARAKTERÝMÝZ SÝLAHLANDIÐI ZAMAN
         {
             //attackIndex = Random.Range(0, 3);
             //anim.SetInteger("attackIndex", attackIndex);
-            attackIndex = 0;
 
+
+
+            anim.SetTrigger("attack");
+            
             if (attackIndex==0)
             {
-                anim.SetInteger("attackIndex", attackIndex);                
-                anim.SetTrigger("attack");
-                attackIndex = 2;
-
-            }
-            else if (attackIndex == 1)
-            {
-                anim.SetInteger("attackIndex", attackIndex);
-                anim.SetTrigger("attack");
+                anim.SetInteger("attacIndex", attackIndex);
                 attackIndex = 2;
                 
+            }
+            if (attackIndex == 1)
+            {
+                anim.SetInteger("attacIndex", attackIndex);
+                attackIndex = 2;
 
             }
 
-            else if (attackIndex == 2)
+            if (attackIndex == 2)
             {
-                anim.SetInteger("attackIndex", attackIndex);
-                anim.SetTrigger("attack");
+                anim.SetInteger("attacIndex", attackIndex);
                 attackIndex = 0;
-                
             }
             
         }

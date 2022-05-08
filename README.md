@@ -61,7 +61,12 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
 
 - **Ürün Durumu**: Ekran görüntüleri:
 <<<<<<< HEAD
+<<<<<<< HEAD
   ![Screenshot 1](![image](https://user-images.githubusercontent.com/104391555/167299132-11ef097a-cc49-40ce-9c8b-5ec69f3792a0.png))
+=======
+  ![image](https://user-images.githubusercontent.com/104391555/167299284-4dc7ab05-39b3-4361-8862-7a9cd1be2ac9.png)
+
+>>>>>>> 4e9d79665c75d087c9595a9791c46e413d6644dd
 =======
   ![image](https://user-images.githubusercontent.com/104391555/167299284-4dc7ab05-39b3-4361-8862-7a9cd1be2ac9.png)
 
