@@ -45,7 +45,7 @@ Takım: Snow Fox Games
 
 # SPRINT 1
 
-- **Sprint Notları**: Oyunun GDD'si ilk fikre göre hazırlanmış olarak Trello içinde backlog'a eklenmiştir. Product backlog item'lara tıklandığında detaylar okunabilir.
+- **Sprint Notları**: Oyunun GDD'si hazırlanmış ve Trello içinde backlog'a eklenmiştir. Product backlog item'lara tıklandığında detaylar okunabilir.
 
 - **Sprint içinde tamamlanması tahmin edilen puan**: 86 Puan
 
