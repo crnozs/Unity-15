@@ -78,6 +78,7 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Kanban panosunda göz
 *Karakterin kılıç animasyonlarından görüntüler 2*
 
 ![image](https://user-images.githubusercontent.com/104391555/167299436-862f79f2-b0d9-46b5-b84b-3e6c8a0c84ca.png)
+
 *Karakterin kılıç animasyonlarından görüntüler 3*
 
 ![scene](https://user-images.githubusercontent.com/95437125/167432566-1e8f0980-0ad9-4f27-8d4c-b4fb7c2a9cb6.png)
