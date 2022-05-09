@@ -22,6 +22,7 @@ Takım: Snow Fox Games
 
 ## Oyun Özellikleri
 
+- 3D macera oyunu olacak
 - Her bir portal evreninde farklı oyun mekanikleri olacak (savaş, puzzle, kaçınma ve yerleştirme)
 - Her evrende başka bir evren için toplayabileceği güçlendirmeler haritanın belirli yerlerinde rastgele bulunacak
 - Bir evrenden portalın parçasını aldığında o portal kapanacak ve bir daha o portala giremeyecek
@@ -42,17 +43,17 @@ Takım: Snow Fox Games
 
 # SPRINT 1
 
-- **Sprint Notları**: User Story'ler product backlog'ların içine yazılmıştır. Product backlog item'lara tıklandığında hikayelerin detayları okunabilir.
+- **Sprint Notları**: Oyunun GDD'si ilk fikre göre hazırlanmış olarak Trello içinde backlog'a eklenmiştir. Product backlog item'lara tıklandığında detaylar okunabilir.
 
 - **Sprint içinde tamamlanması tahmin edilen puan**: 99 Puan
 
 - **Puan tamamlama mantığı**: Backlog puanlaması 0, 1, 2, 3, 5, 8, 13 sayıları arasında yapılmaktadır. Toplamda proje boyunca tamamlanması gereken 364 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in en azından 99 ile başlaması gerektiğine karar verildi.
 
-- **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. 
+- **Backlog düzeni ve Story seçimleri**: Ürün Backlog'unda oyunun ve özelliklerinin detaylı bir şekilde açıklaması bulunmaktadır. Yapılacak tasklar 2D,3D, Ses, Kod ve Animasyon olarak gruplandırılarak belirtilmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. 
 
 Story'ler yapılacak işlere (task'lere) bölünmüştür. Kanban panosunda gözüken to-do listesi yapılacak işleri (task) gösterirken, design ve  mechanics listeleri story'leri temsil etmektedir.
 
-- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Discord üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 1 Daily Scrum Chats](https://github.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/blob/main/ProjectManagement/Sprint1Documents/DailyScrumMeetingNotesSprint1.docx?raw=true)
+- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Discord üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 1 Daily Scrum Chats](https://github.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/blob/main/ProjectManagement/Sprint1Documents/DailyScrumMeetingNotesSprint1.docx?raw=true)
 
 - **Sprint board update**: Sprint board screenshotları: 
 ![image](https://user-images.githubusercontent.com/104391555/167313661-ed24964a-b801-4e30-b64c-6396ad2565ad.png)
@@ -64,15 +65,13 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Kanban panosunda göz
 
 
 - **Sprint Review**: 
-Alınan kararlar: Oyunda, karakterin bulunduğu evren dışındaki diğer evrenlerde kullanabileceği güçlendiriciler olması gerektiğine karar verilmiştir. Büyülü orman evreni bu sprintte biteceği öngörüldüğünden bu değişiklik bir sonraki sprintte uygulanacaktır.  Sprint Review katılımcıları: İrem Nur Eroğlu, Ceren Özsayın, Ahmet Recep Ocak, Resul Kızmaz, Çağlar Karahüseyin.
+Alınan kararlar: Oyunda, karakterin bulunduğu evren dışındaki diğer evrenlerde kullanabileceği güçlendiriciler olması gerektiğine karar verilmiştir. Büyülü orman evreni harita tasarımı bu sprintte biteceği öngörüldüğünden bu değişiklik bir sonraki sprintte uygulanacaktır.  Sprint Review katılımcıları: İrem Nur Eroğlu, Ceren Özsayın, Ahmet Recep Ocak, Resul Kızmaz, Çağlar Karahüseyin.
 
 - **Sprint Retrospective:**
   - Genel toplantıların günleri ve saatleri kesin olarak kararlaştırılmıştır.
   - Tahmin puanları incelenecek ve sprint planlama toplantılarında gerekli geri bildirimler developerlar tarafından verilecektir.
   - Developerlar arası iş bölümü düzenlenecektir. 
 
--**Diğer Notlar**:
-- N/A
 
 ---
 
