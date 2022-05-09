@@ -72,22 +72,22 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Kanban panosunda göz
 
 - **Ürün Durumu**: Ekran görüntüleri:
 ![image](https://user-images.githubusercontent.com/104391555/167299284-4dc7ab05-39b3-4361-8862-7a9cd1be2ac9.png)
-Karakterin kılıç animasyonlarından görüntüler 1
+*Karakterin kılıç animasyonlarından görüntüler 1
 
 ![image](https://user-images.githubusercontent.com/104391555/167299405-32514341-2f00-48ba-aa31-1d2bf2e7b13e.png)
-Karakterin kılıç animasyonlarından görüntüler 2
+*Karakterin kılıç animasyonlarından görüntüler 2
 
 ![image](https://user-images.githubusercontent.com/104391555/167299436-862f79f2-b0d9-46b5-b84b-3e6c8a0c84ca.png)
-Karakterin kılıç animasyonlarından görüntüler 3
+*Karakterin kılıç animasyonlarından görüntüler 3
 
 ![scene](https://user-images.githubusercontent.com/95437125/167432566-1e8f0980-0ad9-4f27-8d4c-b4fb7c2a9cb6.png)
-Yapılan 3D assetlerin sahne içerisindeki deneme görüntüleri
+*Yapılan 3D assetlerin sahne içerisindeki deneme görüntüleri
 
 ![Forest map terrain](https://user-images.githubusercontent.com/95437125/167433876-1d8063c2-2d5f-41f1-8742-0f21005f7cff.png)
-Büyülü orman kuşbakışı map görünümü
+*Büyülü orman kuşbakışı map görünümü
 
 ![image](https://user-images.githubusercontent.com/95437125/167434158-77366ad4-fb87-46cf-a1e6-d6038c88f97f.png)
-Portal tasarımları için ana taslak
+*Portal tasarımları için ana taslak
 
 
 
