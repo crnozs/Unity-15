@@ -37,7 +37,8 @@ Takım: Snow Fox Games
 
 ## Product Backlog URL
 
-[Trello Kanban](https://trello.com/b/Wbsna4s3/unity-15)
+- [Trello Kanban](https://trello.com/b/Wbsna4s3/unity-15)
+- [GDD](https://trello.com/c/EBd8yvRt/100-gdd)
 
 ---
 
