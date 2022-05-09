@@ -39,6 +39,7 @@ Takım: Snow Fox Games
 
 - [Trello Kanban](https://trello.com/b/Wbsna4s3/unity-15)
 - [GDD](https://trello.com/c/EBd8yvRt/100-gdd)
+- [Backlog Puanlama](https://trello.com/c/QrAdtcDY/12-backlog-puanlamalar%C4%B1)
 
 ---
 
