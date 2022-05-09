@@ -54,7 +54,9 @@ Takım: Snow Fox Games
 
 Story'ler yapılacak işlere (task'lere) bölünmüştür. Kanban panosunda gözüken to-do listesi yapılacak işleri (task) gösterirken, design ve  mechanics listeleri story'leri temsil etmektedir.
 
-- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Discord üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 1 Daily Scrum Chats](https://github.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/blob/main/ProjectManagement/Sprint1Documents/DailyScrumMeetingNotesSprint1.docx?raw=true)
+- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Discord üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği word olarak Readme'de tarafımızdan paylaşılmaktadır:
+[DailyScrumMeetingNotesSprint1.docx](https://github.com/crnozs/Unity-15/files/8650391/DailyScrumMeetingNotesSprint1.docx)
+
 
 - **Sprint board update**: Sprint board screenshotları: 
 ![image](https://user-images.githubusercontent.com/104391555/167313661-ed24964a-b801-4e30-b64c-6396ad2565ad.png)
