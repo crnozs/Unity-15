@@ -33,7 +33,9 @@ Takım: Snow Fox Games
 - Bilgisayar oyuncuları
 - Macera oyunu severler
 - Puzzle oyunu severler
+- Fantastik türünde oyunlar oynamayı seven oyuncular
 - 12 yaş üzeri oyuncular
+
 
 ## Product Backlog URL
 
