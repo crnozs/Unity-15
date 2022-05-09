@@ -89,6 +89,8 @@ Alınan kararlar: Oyunda, karakterin bulunduğu evren dışındaki diğer evrenl
   - Tahmin puanları incelenecek ve sprint planlama toplantılarında gerekli geri bildirimler developerlar tarafından verilecektir.
   - Developerlar arası iş bölümü düzenlenecektir. 
 
+- **Diğer Notlar:**
+ - [Toplantı gündem belgesi]()
 
 ---
 
