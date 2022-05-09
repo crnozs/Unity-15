@@ -62,6 +62,8 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Kanban panosunda göz
 ![Chat1](https://user-images.githubusercontent.com/95437125/167476750-1dd10acc-d6e9-4b76-b70b-63a965fb0236.png)
 ![Chat2](https://user-images.githubusercontent.com/95437125/167476764-4e1abf06-a994-40ce-9849-e481ceaaa9d3.png)
 ![image](https://user-images.githubusercontent.com/95437125/167486613-c06ff788-c6c7-4042-8182-1b0c06999267.png)
+![image](https://user-images.githubusercontent.com/104391555/167489902-3ad48dd0-a4bc-4412-910b-ad4c47b501c1.png)
+
 
 
 
