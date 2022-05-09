@@ -90,7 +90,7 @@ Alınan kararlar: Oyunda, karakterin bulunduğu evren dışındaki diğer evrenl
   - Developerlar arası iş bölümü düzenlenecektir. 
 
 - **Diğer Notlar:**
- - [Toplantı gündem belgesi]()
+ [Toplantı gündem belgesi]()
 
 ---
 
