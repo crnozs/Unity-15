@@ -13,7 +13,6 @@ public class WeaponController : MonoBehaviour // KARAKTERÝMÝZ SÝLAHLANDIÐI ZAMAN
     public GameObject kilicEl;
     public GameObject kilicSirt;
     public GameObject trails;
-    public bool isRage = false;
    
     
     void Start()
@@ -39,10 +38,6 @@ public class WeaponController : MonoBehaviour // KARAKTERÝMÝZ SÝLAHLANDIÐI ZAMAN
             anim.SetInteger("kickIndex", kickIndex);
             anim.SetTrigger("kick");
         }
-        if (Input.GetKeyDown(KeyCode.R)&&isRage==true)
-        {
-            anim.SetTrigger("rage");
-        }
 
         
 
@@ -50,9 +45,6 @@ public class WeaponController : MonoBehaviour // KARAKTERÝMÝZ SÝLAHLANDIÐI ZAMAN
         {
            
             anim.SetTrigger("attack");
-
-            
-
 
 
 
