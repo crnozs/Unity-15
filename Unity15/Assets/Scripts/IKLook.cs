@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class IKLook : MonoBehaviour
 {
-    float weight = .4f; // Bizim baktýðýmýz yöne bakmasýný, saldýrýrken tamamen kapatmak yerine kontrol edebilmek için bir deðiþkene baðlayalým.
+    float weight = .35f; // Bizim baktýðýmýz yöne bakmasýný, saldýrýrken tamamen kapatmak yerine kontrol edebilmek için bir deðiþkene baðlayalým.
     Animator anim;
     Camera mainCam;
     
@@ -28,7 +28,7 @@ public class IKLook : MonoBehaviour
 
     public void arttýr()
     {
-        weight = Mathf.Lerp(weight, .4f, Time.fixedDeltaTime); //normal haldeyken kamerayla baktýðýmýz yöne bakacak
+        weight = Mathf.Lerp(weight, .35f, Time.fixedDeltaTime); //normal haldeyken kamerayla baktýðýmýz yöne bakacak
 
     }
     public void azalt() 
