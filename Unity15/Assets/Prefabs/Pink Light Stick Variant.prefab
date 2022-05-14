@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8113518826633956072
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400772343, guid: d68002c951d5d1a4c9014676fb892a5b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f091bc03b3c59074887e0811adddbc3a, type: 2}
+    - target: {fileID: 855067466, guid: d68002c951d5d1a4c9014676fb892a5b, type: 3}
+      propertyPath: m_Color.b
+      value: 0.764151
+      objectReference: {fileID: 0}
+    - target: {fileID: 855067466, guid: d68002c951d5d1a4c9014676fb892a5b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.18310784
+      objectReference: {fileID: 0}
+    - target: {fileID: 855067466, guid: d68002c951d5d1a4c9014676fb892a5b, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5224781
+      objectReference: {fileID: 0}
+    - target: {fileID: 5104268833419581790, guid: d68002c951d5d1a4c9014676fb892a5b, type: 3}
+      propertyPath: m_Name
+      value: Pink Light Stick
+      objectReference: {fileID: 0}
+    - target: {fileID: 5592857043353600996, guid: d68002c951d5d1a4c9014676fb892a5b, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5592857043353600996, guid: d68002c951d5d1a4c9014676fb892a5b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 208.71
+      objectReference: {fileID: 0}
+    - target: {fileID: 5592857043353600996, guid: d68002c951d5d1a4c9014676fb892a5b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 5592857043353600996, guid: d68002c951d5d1a4c9014676fb892a5b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 85.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 5592857043353600996, guid: d68002c951d5d1a4c9014676fb892a5b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.18301274
+      objectReference: {fileID: 0}
+    - target: {fileID: 5592857043353600996, guid: d68002c951d5d1a4c9014676fb892a5b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.18301274
+      objectReference: {fileID: 0}
+    - target: {fileID: 5592857043353600996, guid: d68002c951d5d1a4c9014676fb892a5b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.6830127
+      objectReference: {fileID: 0}
+    - target: {fileID: 5592857043353600996, guid: d68002c951d5d1a4c9014676fb892a5b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.6830127
+      objectReference: {fileID: 0}
+    - target: {fileID: 5592857043353600996, guid: d68002c951d5d1a4c9014676fb892a5b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5592857043353600996, guid: d68002c951d5d1a4c9014676fb892a5b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5592857043353600996, guid: d68002c951d5d1a4c9014676fb892a5b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 150
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d68002c951d5d1a4c9014676fb892a5b, type: 3}
