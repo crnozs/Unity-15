@@ -1,0 +1,66 @@
+using UnityEngine;
+using UnityEngine.InputSystem;
+
+public class State // Monobihavior deðil sýnýfýn KENDÝSÝ
+{
+    //Scriptlere referans verdik.
+    public Character character;
+    public StateMachine stateMachine;
+
+    // Tüm state'lerden ulaþabilmek için bu deðerleri "protected" tipinde atadýk.
+    // Sadece state function içinde bulunan state'lerden eriþim saðlanacak.
+    protected Vector3 gravityVelocity;
+    protected Vector3 velocity;
+    protected Vector2 input;
+
+    // PlayerController componentinde bulunan aksiyonlarý referans verdik.
+    public InputAction moveAction;
+    public InputAction lookAction;
+    public InputAction jumpAction;
+    public InputAction crouchAction;
+    public InputAction sprintAction;
+    public InputAction drawWeaponAction;
+    public InputAction attackAction;
+
+
+    // Ýlk Constructor'umuzu burada yaptýk. Ýçerisinde hem StateMachine hemde Character class'larýný (objelerini) tutuyor.
+    public State(Character _character, StateMachine _stateMachine)
+    {
+        character = _character;
+        stateMachine = _stateMachine;
+
+        //Editörde tanýmladýðýmýz aksiyonlarý deðiþkene atadýk.
+        moveAction = character.playerInput.actions["Move"];
+        lookAction = character.playerInput.actions["Look"];
+        jumpAction = character.playerInput.actions["Jump"];
+        crouchAction = character.playerInput.actions["Crouch"];
+        sprintAction = character.playerInput.actions["Sprint"];
+        drawWeaponAction = character.playerInput.actions["DrawWeapon"];
+        attackAction = character.playerInput.actions["Attack"];
+
+    }
+
+
+    // Aþaðýdaki fonksiyonlarýn "virtual" olmasýnýn nedeni herhangi bir state'de override edebilecek olmamýz.
+    public virtual void Enter()
+    {
+        //StateUI.instance.SetStateText(this.ToString());
+        Debug.Log("Enter State: " + this.ToString());
+    }
+
+    public virtual void HandleInput()
+    {
+    }
+
+    public virtual void LogicUpdate()
+    {
+    }
+
+    public virtual void PhysicsUpdate()
+    {
+    }
+
+    public virtual void Exit()
+    {
+    }
+}

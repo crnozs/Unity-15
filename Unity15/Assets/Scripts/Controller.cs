@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Controller : MonoBehaviour
 {
-
+   
     [Header("Metrics")]
     public float damp;
     [Range(1, 20)]
@@ -100,7 +100,7 @@ public class Controller : MonoBehaviour
             {
                 mainCam.fieldOfView = Mathf.Lerp(mainCam.fieldOfView, normalFov, 2 * Time.deltaTime); // Karakter depar atmazken hýzlanma efektini kaldýrmak için.
 
-                maxSpeed = 0.2f;
+                maxSpeed = 0.5f;
                 inputX = Input.GetAxis("Horizontal");
                 inputY = Input.GetAxis("Vertical");
 
@@ -134,4 +134,6 @@ public class Controller : MonoBehaviour
 
         model.forward = Vector3.Slerp(model.forward, rotOfset, Time.deltaTime * rotationSpeed); //Karakterimiz de rotationOfset'e doðru dönüþ yapacak.
     }
+
+
 }

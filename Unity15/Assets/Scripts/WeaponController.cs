@@ -5,7 +5,7 @@ using UnityEngine;
 public class WeaponController : MonoBehaviour // KARAKTERÝMÝZ SÝLAHLANDIÐI ZAMAN STRAFE MOVEMENT'E GEÇECEK
 {
 
-    int kickIndex;
+    
     bool canAttack = true;
     bool isStrafe = false;
     Animator anim;
@@ -32,14 +32,6 @@ public class WeaponController : MonoBehaviour // KARAKTERÝMÝZ SÝLAHLANDIÐI ZAMAN
             isStrafe = !isStrafe; 
         }
         
-        if (Input.GetKeyDown(KeyCode.E)&&isStrafe==true&&canAttack==true) //Tekme atmak
-        {
-            kickIndex = Random.Range(0, 2);
-            anim.SetInteger("kickIndex", kickIndex);
-            anim.SetTrigger("kick");
-        }
-
-        
 
         if (Input.GetKeyDown(KeyCode.Mouse0) && isStrafe==true && canAttack==true) //Kýlýçla vurmak
         {
@@ -49,10 +41,10 @@ public class WeaponController : MonoBehaviour // KARAKTERÝMÝZ SÝLAHLANDIÐI ZAMAN
 
 
         }
-        if (Input.GetKeyDown(KeyCode.Mouse1) && isStrafe == true && canAttack == true) // Block Yapmak
+        /*if (Input.GetKeyDown(KeyCode.Mouse1) && isStrafe == true && canAttack == true) // Block Yapmak
         {
             
-        }
+        }*/
 
         // Controller scriptindeki deðiþkenleri kontrol ediyoruz
         if (isStrafe==true)
