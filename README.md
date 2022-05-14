@@ -10,7 +10,7 @@ Takım: Snow Fox Games
 - İrem Nur Eroğlu: Scrum Master
 - Ahmet Recep Ocak: Team Member/Developer
 - Resul Kızmaz : Team Member/Developer
-- Çağlar Karahüseyin: Team Member/Developer
+
 
 ## Oyun İsmi
 
