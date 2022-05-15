@@ -12,8 +12,8 @@ public class Controller : MonoBehaviour
     public float rotationSpeed; // 1-20 arasý DÝRACTÝONAL modda arasý dönüþ hýzý.
     [Range(1, 20)]
     public float strafeTurnSpeed; // 1-20 arasý STRAFE modda dönüþ hýzý.
-    float normalFov;
-    public float sprintFov;
+    float normalFov; // normal kamera açýsý
+    public float sprintFov; // sprint kamera açýsý
 
     float inputX;
     float inputY;

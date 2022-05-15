@@ -26,7 +26,7 @@ public class StandingState : State // Ýlk state'imiz.
     {
         base.Enter(); // virtual enter fonksiyonu'nu trigger'lýyoruz.
 
-        // Baþlangýç halinde herþeyi sýfýrlýyoruz.
+        // State'e baþlangýç halinde herþeyi sýfýrlýyoruz.
         jump = false;
         crouch = false;
         sprint = false;
@@ -69,11 +69,14 @@ public class StandingState : State // Ýlk state'imiz.
         input = moveAction.ReadValue<Vector2>();
         velocity = new Vector3(input.x, 0, input.y);
 
+        // 
         velocity = velocity.x * character.cameraTransform.right.normalized + velocity.z * character.cameraTransform.forward.normalized;
         velocity.y = 0f; // Karakter koþarken kamera yukarý aþaðý sallanmasýn diye y'sini 0'a çekiyoruz.
 
     }
 
+
+    // Animator üzerinden kontrol edilen herþeyin kontrolü buradan yapýlýyor.
     public override void LogicUpdate()
     {
         base.LogicUpdate(); //virtual LogicUpdate fonksiyonu'nu trigger'lýyoruz.
@@ -82,57 +85,61 @@ public class StandingState : State // Ýlk state'imiz.
         character.animator.SetFloat("speed", input.magnitude, character.speedDampTime, Time.deltaTime);
 
         // Verilen aksiyona göre state deðiþtiriyoruz.
-        if (sprint)
+        if (sprint) //StandingState'ten SprintState'e geçiþ.
         {
             stateMachine.ChangeState(character.sprinting);
         }
-        if (jump)
+        if (jump) // StandingState'ten JumpingState'e geçiþ.
         {
             stateMachine.ChangeState(character.jumping);
         }
-        if (crouch)
+        if (crouch) //StandingState'ten CrouchState'e geçiþ.
         {
             stateMachine.ChangeState(character.crouching);
         }
-        if (drawWeapon)
+        if (drawWeapon) // StandingState'ten CombatState'e geçiþ.
         {
             stateMachine.ChangeState(character.combatting);
             character.animator.SetTrigger("drawWeapon");
         }
     }
 
+    // Bu fonksiyon bizim karakterimizi hareket ettirmemizi saðlýyor
     public override void PhysicsUpdate()
     {
         base.PhysicsUpdate();
 
         gravityVelocity.y += gravityValue * Time.deltaTime;
-        grounded = character.controller.isGrounded;
+        grounded = character.controller.isGrounded; // Character Controller komponentinin içerisinde bulunan isGrounded fonksiyonunu atama yapýyoruz.
 
         if (grounded && gravityVelocity.y < 0)
         {
             gravityVelocity.y = 0f;
         }
 
+        // Character Controller komponentinden karakterimizi hareket ettiriyoruz.
         currentVelocity = Vector3.SmoothDamp(currentVelocity, velocity, ref cVelocity, character.velocityDampTime);
         character.controller.Move(currentVelocity * Time.deltaTime * playerSpeed + gravityVelocity * Time.deltaTime);
 
-        if (velocity.sqrMagnitude > 0)
+        if (velocity.sqrMagnitude > 0) //
         {
             character.transform.rotation = Quaternion.Slerp(character.transform.rotation, Quaternion.LookRotation(velocity), character.rotationDampTime);
         }
 
     }
 
+
+    // State'ten çýkýþ için kullanýlan fonksiyon.
     public override void Exit()
     {
         base.Exit();
 
-        gravityVelocity.y = 0f;
-        character.playerVelocity = new Vector3(input.x, 0, input.y);
+        gravityVelocity.y = 0f; // diðer state'lerin gravity kontrolü olmamasýna karþýn önlem olarak gravity deðerini 0 a çekiyoruz.
+        character.playerVelocity = new Vector3(input.x, 0, input.y); // State sonunda hýzý, girilen input'lar neticesinde güncelliyoruz.
 
         if (velocity.sqrMagnitude > 0)
         {
-            character.transform.rotation = Quaternion.LookRotation(velocity);
+            character.transform.rotation = Quaternion.LookRotation(velocity); // State sonunda rotasyonuda güncelliyoruz.
         }
     }
 

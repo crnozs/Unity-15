@@ -9,7 +9,7 @@ public class Character : MonoBehaviour
     public float jumpHeight = 0.8f;
     public float gravityMultiplier = 2;
     public float rotationSpeed = 5f;
-    public float crouchColliderHeight = 1.35f; // karakterdeki character controller componentinde baþlangýç boyu 1.8
+    public float crouchColliderHeight = 1.35f; // karakterdeki Character Controller componentinde baþlangýç boyu 1.8
 
     [Header("Animation Smoothing")] //idle animasyonundan hareket animasyonlarýna ne kadar çabuk geçmek istediðimizi belirledik.
     [Range(0, 1)]
@@ -32,6 +32,7 @@ public class Character : MonoBehaviour
     public CombatState combatting;
     public AttackState attacking;
 
+    // Diðer scriptlerden ulaþabileceðimiz ancak inpector panelinde görünmeyecek deðiþkenler.
     [HideInInspector]
     public float gravityValue = -9.81f;
     [HideInInspector]
@@ -74,13 +75,14 @@ public class Character : MonoBehaviour
 
     private void Update()
     {
+        // Bu iki fonksiyon her frame'de çalýþmasý gerektiði için update içinde çaðýrdýk.
         movementSM.currentState.HandleInput();
-
         movementSM.currentState.LogicUpdate();
     }
 
     private void FixedUpdate()
     {
+        // Fizik kontrollerinin FixedUpdate'te yapýlmasý gerektiði için burada çaðýrdýk.
         movementSM.currentState.PhysicsUpdate();
     }
 }

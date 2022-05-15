@@ -42,10 +42,15 @@ public class State // Monobihavior deðil sýnýfýn KENDÝSÝ
 
 
     // Aþaðýdaki fonksiyonlarýn "virtual" olmasýnýn nedeni herhangi bir state'de override edebilecek olmamýz.
+    // Enter         : State'e ilk girdiðimizde 1 kere çalýþýr.
+    // HandleInput   : Her frame'de 1 kere çalýþýr ve Action Map'te belirlenen input'larý check eder.
+    // LogicUpdate   : State'te kaldýðýmýz süre boyunca yapýlacaklarý kontrol etmek için her bir frame'de 1 kere çalýþýr.
+    // PhysicsUpdate : Fizik kontrollerini yapmak için her bir frame'de 1 kere çalýþýr.
+    // Exit          : State'ten çýkmadan önce 1 kere çalýþýr ve state sonundaki güncellemeleri belirlemek için kullanýlýr.
     public virtual void Enter()
     {
         //StateUI.instance.SetStateText(this.ToString());
-        Debug.Log("Enter State: " + this.ToString());
+        //Debug.Log("Enter State: " + this.ToString());
     }
 
     public virtual void HandleInput()

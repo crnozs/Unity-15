@@ -1,5 +1,5 @@
 using UnityEngine;
-public class SprintState : State
+public class SprintState : State // Karakterimiz koþarken left shift tuþuna basarsa bu state çalýþmaya baþlayacak.
 {
     float gravityValue;
     Vector3 currentVelocity;
@@ -15,6 +15,7 @@ public class SprintState : State
         stateMachine = _stateMachine;
     }
 
+    // Yine baþlangýçta tüm deðerleri sýfýrlýyoruz.
     public override void Enter()
     {
         base.Enter();
@@ -39,6 +40,15 @@ public class SprintState : State
 
         velocity = velocity.x * character.cameraTransform.right.normalized + velocity.z * character.cameraTransform.forward.normalized;
         velocity.y = 0f;
+
+        // Bu kýsýmda biraz farklý bir koþul kullandýk;
+        // SprintState'te kalmak için bizim left shift'e basýlý iken ayný zamanda WASD'ye de basmamýz gerekiyor.
+        // Basmadýðýmýzda input.sqrMagnitude 0 deðerini döndüreceði için artýk sprint state'de kalamayýz anlamýna geliyor.
+        
+        // Ayný þekilde sprintAction.triggered'da action map'te pressing or releesing olarak seçtiðimiz için
+        // shift'i býraktýðýmýzda da koþul true dönecek böylelikle sprint halinde kalamayacaðýz.
+
+        // Her iki koþul da false verdiðinde ise sprint halinde kalmaya devam edebileceðiz.
         if (sprintAction.triggered || input.sqrMagnitude == 0f)
         {
             sprint = false;
@@ -57,7 +67,7 @@ public class SprintState : State
 
     public override void LogicUpdate()
     {
-        if (sprint)
+        if (sprint) // Sprint halindeyken maksimum hýzýmýzýn sýnýrý 1 den 1.5 e çýktýðý için animatördeki speed deðerini arttýrýyoruz.
         {
             character.animator.SetFloat("speed", input.magnitude + 0.5f, character.speedDampTime, Time.deltaTime);
         }
@@ -71,6 +81,7 @@ public class SprintState : State
         }
     }
 
+    // Fizik kýsmýnda ise yine StandingState'te olduðu gibi yerçekimini, hýzýmýzý ve rotasyonumuzu belirliyoruz.
     public override void PhysicsUpdate()
     {
         base.PhysicsUpdate();

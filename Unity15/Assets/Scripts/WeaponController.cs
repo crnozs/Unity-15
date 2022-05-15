@@ -26,11 +26,14 @@ public class WeaponController : MonoBehaviour // KARAKTERÝMÝZ SÝLAHLANDIÐI ZAMAN
     void Update()
     {
         anim.SetBool("iS", isStrafe);
-
-        if (Input.GetKeyDown(KeyCode.F))
+        if (kilicSirt!=null)
         {
-            isStrafe = !isStrafe; 
+            if (Input.GetKeyDown(KeyCode.F))
+            {
+                isStrafe = !isStrafe;
+            }
         }
+        
         
 
         if (Input.GetKeyDown(KeyCode.Mouse0) && isStrafe==true && canAttack==true) //Kýlýçla vurmak
