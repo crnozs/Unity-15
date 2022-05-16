@@ -9,7 +9,7 @@ public class Character : MonoBehaviour
     public float jumpHeight = 0.8f;
     public float gravityMultiplier = 2;
     public float rotationSpeed = 5f;
-    public float crouchColliderHeight = 1.35f; // karakterdeki Character Controller componentinde baþlangýç boyu 1.8
+    //public float crouchColliderHeight = 1.35f; // karakterdeki Character Controller componentinde baþlangýç boyu 1.8
 
     [Header("Animation Smoothing")] //idle animasyonundan hareket animasyonlarýna ne kadar çabuk geçmek istediðimizi belirledik.
     [Range(0, 1)]
@@ -25,10 +25,10 @@ public class Character : MonoBehaviour
     public StateMachine movementSM;
     public StandingState standing;
     public JumpingState jumping;
-    public CrouchingState crouching;
+    //public CrouchingState crouching;
     public LandingState landing;
     public SprintState sprinting;
-    public SprintJumpState sprintjumping;
+    //public SprintJumpState sprintjumping;
     public CombatState combatting;
     public AttackState attacking;
 
@@ -60,10 +60,8 @@ public class Character : MonoBehaviour
         movementSM = new StateMachine(); // state machine'deki deðeri burda cach'ledik, aþaðýda ise state machine'ye baðladýk.
         standing = new StandingState(this, movementSM);
         jumping = new JumpingState(this, movementSM);
-        crouching = new CrouchingState(this, movementSM);
         landing = new LandingState(this, movementSM);
         sprinting = new SprintState(this, movementSM);
-        sprintjumping = new SprintJumpState(this, movementSM);
         combatting = new CombatState(this, movementSM);
         attacking = new AttackState(this, movementSM);
 

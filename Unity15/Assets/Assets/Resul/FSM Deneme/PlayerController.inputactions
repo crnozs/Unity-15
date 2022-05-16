@@ -24,15 +24,6 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Crouch",
-                    "type": "Button",
-                    "id": "f9a84f0d-459d-40b2-a90c-60ce32f96523",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
                     "name": "Sprint",
                     "type": "Button",
                     "id": "f7059676-eeb5-4c50-863e-021903490fb7",
@@ -44,7 +35,7 @@
                 {
                     "name": "Look",
                     "type": "Button",
-                    "id": "ca953c77-dcb7-4f66-b4f0-335194dc203f",
+                    "id": "9762826f-aa83-41c2-bc1f-768838d5e896",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -97,17 +88,6 @@
                 }
             ],
             "bindings": [
-                {
-                    "name": "",
-                    "id": "d3f8428c-9d3d-4af3-9cd2-acb93754bba5",
-                    "path": "<Keyboard>/c",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Crouch",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
                 {
                     "name": "",
                     "id": "7bb4a38d-5304-4f0c-85bc-a833568aea62",
@@ -220,17 +200,6 @@
                 },
                 {
                     "name": "",
-                    "id": "47b1e92e-69f9-4364-a036-880928e50392",
-                    "path": "",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Look",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "37eb3648-5e5c-41e8-8a01-e354148bf738",
                     "path": "<Keyboard>/r",
                     "interactions": "Tap",
@@ -248,6 +217,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "Attack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6f2b2faa-eb41-40ad-89aa-e867a1eceac0",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Look",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

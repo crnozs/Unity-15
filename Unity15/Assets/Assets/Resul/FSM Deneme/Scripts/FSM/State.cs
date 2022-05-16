@@ -17,7 +17,6 @@ public class State // Monobihavior deðil sýnýfýn KENDÝSÝ
     public InputAction moveAction;
     public InputAction lookAction;
     public InputAction jumpAction;
-    public InputAction crouchAction;
     public InputAction sprintAction;
     public InputAction drawWeaponAction;
     public InputAction attackAction;
@@ -33,7 +32,6 @@ public class State // Monobihavior deðil sýnýfýn KENDÝSÝ
         moveAction = character.playerInput.actions["Move"];
         lookAction = character.playerInput.actions["Look"];
         jumpAction = character.playerInput.actions["Jump"];
-        crouchAction = character.playerInput.actions["Crouch"];
         sprintAction = character.playerInput.actions["Sprint"];
         drawWeaponAction = character.playerInput.actions["DrawWeapon"];
         attackAction = character.playerInput.actions["Attack"];

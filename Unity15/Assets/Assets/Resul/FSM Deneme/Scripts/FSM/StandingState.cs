@@ -6,7 +6,7 @@ public class StandingState : State // Ýlk state'imiz.
     float gravityValue; // Character Controller komponenti kullandýðýmýz için bu deðere ihtiyacýmýz var.
 
     bool jump;
-    bool crouch;
+    //bool crouch;
     bool grounded;
     bool sprint;
     bool drawWeapon;
@@ -28,7 +28,7 @@ public class StandingState : State // Ýlk state'imiz.
 
         // State'e baþlangýç halinde herþeyi sýfýrlýyoruz.
         jump = false;
-        crouch = false;
+        //crouch = false;
         sprint = false;
         drawWeapon = false;
         input = Vector2.zero;
@@ -51,10 +51,10 @@ public class StandingState : State // Ýlk state'imiz.
         {
             jump = true;
         }
-        if (crouchAction.triggered)
+        /*if (crouchAction.triggered)
         {
             crouch = true;
-        }
+        }*/
         if (sprintAction.triggered)
         {
             sprint = true;
@@ -93,10 +93,10 @@ public class StandingState : State // Ýlk state'imiz.
         {
             stateMachine.ChangeState(character.jumping);
         }
-        if (crouch) //StandingState'ten CrouchState'e geçiþ.
+        /*if (crouch) //StandingState'ten CrouchState'e geçiþ.
         {
             stateMachine.ChangeState(character.crouching);
-        }
+        }*/
         if (drawWeapon) // StandingState'ten CombatState'e geçiþ.
         {
             stateMachine.ChangeState(character.combatting);

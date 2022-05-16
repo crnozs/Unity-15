@@ -77,7 +77,7 @@ public class SprintState : State // Karakterimiz koþarken left shift tuþuna basa
         }
         if (sprintJump)
         {
-            stateMachine.ChangeState(character.sprintjumping);
+            stateMachine.ChangeState(character.jumping);
         }
     }
 
