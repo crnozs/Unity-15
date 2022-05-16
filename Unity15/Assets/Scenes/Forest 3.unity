@@ -16914,7 +16914,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!108 &1661184650
 Light:
   m_ObjectHideFlags: 0
@@ -22780,7 +22780,6 @@ MonoBehaviour:
   jumpHeight: 0.8
   gravityMultiplier: 2
   rotationSpeed: 5
-  crouchColliderHeight: 1.35
   speedDampTime: 0.1
   velocityDampTime: 0.1
   rotationDampTime: 0.2
