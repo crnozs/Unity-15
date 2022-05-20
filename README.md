@@ -117,7 +117,7 @@ Alınan kararlar: Oyunda, karakterin bulunduğu evren dışındaki diğer evrenl
 
 - **Sprint içinde tamamlanması tahmin edilen puan**: 160 Puan
 
-- **Puan tamamlama mantığı**: Backlog puanlaması 0, 1, 2, 3, 5, 8, 13 sayıları arasında yapılmaktadır. Toplamda proje boyunca tamamlanması gereken 351 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in en azından 86 ile başlaması gerektiğine karar verildi.
+- **Puan tamamlama mantığı**: Backlog puanlaması 0, 1, 2, 3, 5, 8, 13 sayıları arasında yapılmaktadır. Toplamda proje boyunca tamamlanması gereken 351 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ikinci sprint'in en azından 160 ile başlaması gerektiğine karar verildi.
 
 - **Backlog düzeni ve Story seçimleri**: Ürün Backlog'unda oyunun ve özelliklerinin detaylı bir şekilde açıklaması bulunmaktadır. Yapılacak tasklar 2D,3D, Ses, Kod ve Animasyon olarak gruplandırılarak belirtilmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır.
 
