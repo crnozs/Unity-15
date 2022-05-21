@@ -14,10 +14,13 @@ public class State // Monobihavior deðil sýnýfýn KENDÝSÝ
     protected Vector2 input;
 
     // PlayerController componentinde bulunan aksiyonlarý referans verdik.
+    // Hareket Aksiyonlarý;
     public InputAction moveAction;
     public InputAction lookAction;
     public InputAction jumpAction;
     public InputAction sprintAction;
+
+    //Combat Aksiyonlarý
     public InputAction drawWeaponAction;
     public InputAction attackAction;
 

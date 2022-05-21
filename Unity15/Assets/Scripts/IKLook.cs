@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class IKLook : MonoBehaviour
 {
-    float weight = .35f; // Bizim baktýðýmýz yöne bakmasýný, saldýrýrken tamamen kapatmak yerine kontrol edebilmek için bir deðiþkene baðlayalým.
+    float weight = .7f; // Bizim baktýðýmýz yöne bakmasýný, saldýrýrken tamamen kapatmak yerine kontrol edebilmek için bir deðiþkene baðlayalým.
     Animator anim;
     Camera mainCam;
     
@@ -18,7 +18,7 @@ public class IKLook : MonoBehaviour
     //KARAKTERÝMÝZÝN BAKTIÐIMIZ YÖNE DÖNMESÝNÝ SAÐLAYALIM
     private void OnAnimatorIK(int layerIndex)
     {
-        anim.SetLookAtWeight(weight,0.3f,.5f,.5f,.5f);         //Karakterin vücudunun hangi bölümünün(bizim için önemli olan vücut ve baþ dönüþü)
+        anim.SetLookAtWeight(weight,0.3f,.8f,.5f,.5f);         //Karakterin vücudunun hangi bölümünün(bizim için önemli olan vücut ve baþ dönüþü)
                                                                 //Ray'den tarafa ne kadar döneceðini deðerlerle belirleyelim. 
 
         Ray lookAtRay = new Ray(transform.position, mainCam.transform.forward);//Karakterin pozisyonundan kameranýn bakýþ yönüne doðru bir ýþýn gönderelim.

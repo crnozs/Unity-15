@@ -7,7 +7,7 @@ public class SprintState : State // Karakterimiz koþarken left shift tuþuna basa
     bool grounded;
     bool sprint;
     float playerSpeed;
-    bool sprintJump;
+    //bool sprintJump;
     Vector3 cVelocity;
     public SprintState(Character _character, StateMachine _stateMachine) : base(_character, _stateMachine)
     {
@@ -19,13 +19,29 @@ public class SprintState : State // Karakterimiz koþarken left shift tuþuna basa
     public override void Enter()
     {
         base.Enter();
-
+        
         sprint = false;
-        sprintJump = false;
+        //sprintJump = false;
         input = Vector2.zero;
         velocity = Vector3.zero;
         currentVelocity = Vector3.zero;
         gravityVelocity.y = 0;
+        
+
+        playerSpeed = character.sprintSpeed;
+        grounded = character.controller.isGrounded;
+        gravityValue = character.gravityValue;
+    }
+    public override void Exit()
+    {
+        base.Exit();
+        sprint = false;
+        //sprintJump = false;
+        input = Vector2.zero;
+        velocity = Vector3.zero;
+        currentVelocity = Vector3.zero;
+        gravityVelocity.y = 0;
+
 
         playerSpeed = character.sprintSpeed;
         grounded = character.controller.isGrounded;
@@ -57,11 +73,11 @@ public class SprintState : State // Karakterimiz koþarken left shift tuþuna basa
         {
             sprint = true;
         }
-        if (jumpAction.triggered)
+        /*if (jumpAction.triggered)
         {
             sprintJump = true;
 
-        }
+        }*/
 
     }
 
@@ -75,10 +91,10 @@ public class SprintState : State // Karakterimiz koþarken left shift tuþuna basa
         {
             stateMachine.ChangeState(character.standing);
         }
-        if (sprintJump)
+        /*if (sprintJump) // ANÝMASYON BUGU SEBEBÝYLE KALDIRILDI
         {
-            stateMachine.ChangeState(character.jumping);
-        }
+            stateMachine.ChangeState(character.sprintjumping);
+        }*/
     }
 
     // Fizik kýsmýnda ise yine StandingState'te olduðu gibi yerçekimini, hýzýmýzý ve rotasyonumuzu belirliyoruz.

@@ -82,7 +82,7 @@ public class JumpingState : State
 
     void Jump()
     {
-        gravityVelocity.y += Mathf.Sqrt(jumpHeight * -3.0f * gravityValue); // zýplayabilmemiz için gerekli olan deðeri hesaplýyoruz.
+        gravityVelocity.y += Mathf.Sqrt(jumpHeight * -3.5f * gravityValue); // zýplayabilmemiz için gerekli olan deðeri hesaplýyoruz.
     }
 
 }

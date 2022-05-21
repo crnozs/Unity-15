@@ -9,7 +9,7 @@ public class Character : MonoBehaviour
     public float jumpHeight = 0.8f;
     public float gravityMultiplier = 2;
     public float rotationSpeed = 5f;
-    //public float crouchColliderHeight = 1.35f; // karakterdeki Character Controller componentinde baþlangýç boyu 1.8
+    //public float crouchColliderHeight = 1.35f; // karakterdeki Character Controller componentinde baþlangýç boyu 1.8 (KALDIRILDI)
 
     [Header("Animation Smoothing")] //idle animasyonundan hareket animasyonlarýna ne kadar çabuk geçmek istediðimizi belirledik.
     [Range(0, 1)]
@@ -22,14 +22,14 @@ public class Character : MonoBehaviour
     public float airControl = 0.5f; // karakter zýpladýðýnda havada ne kadar hareket edebilirini kontrol ettik. (saða sola)
 
     //State'leri belirledik
-    public StateMachine movementSM;
-    public StandingState standing;
-    public JumpingState jumping;
-    //public CrouchingState crouching;
-    public LandingState landing;
-    public SprintState sprinting;
-    //public SprintJumpState sprintjumping;
-    public CombatState combatting;
+    public StateMachine movementSM; //** 1
+    public StandingState standing; //** 1
+    public JumpingState jumping; //** 1
+    //public CrouchingState crouching; (KALDIRILDI)
+    public LandingState landing;//** 1
+    public SprintState sprinting;//** 1
+    public SprintJumpState sprintjumping;//** 1
+    public CombatState combatting;//** 1
     public AttackState attacking;
 
     // Diðer scriptlerden ulaþabileceðimiz ancak inpector panelinde görünmeyecek deðiþkenler.
@@ -57,13 +57,14 @@ public class Character : MonoBehaviour
         playerInput = GetComponent<PlayerInput>();
         cameraTransform = Camera.main.transform;
 
-        movementSM = new StateMachine(); // state machine'deki deðeri burda cach'ledik, aþaðýda ise state machine'ye baðladýk.
-        standing = new StandingState(this, movementSM);
-        jumping = new JumpingState(this, movementSM);
-        landing = new LandingState(this, movementSM);
-        sprinting = new SprintState(this, movementSM);
-        combatting = new CombatState(this, movementSM);
-        attacking = new AttackState(this, movementSM);
+        movementSM = new StateMachine(); //** 2 state machine'deki deðeri burda cach'ledik, aþaðýda ise state machine'ye baðladýk.
+        standing = new StandingState(this, movementSM);//** 2
+        jumping = new JumpingState(this, movementSM);//** 2
+        landing = new LandingState(this, movementSM);//** 2
+        sprinting = new SprintState(this, movementSM);//** 2
+        combatting = new CombatState(this, movementSM);//** 2
+        attacking = new AttackState(this, movementSM);//** 2
+        sprintjumping = new SprintJumpState(this, movementSM);//** 2
 
         movementSM.Initialize(standing); // bütün kontrolleri tuttuðumuz state'i init ettik.
 

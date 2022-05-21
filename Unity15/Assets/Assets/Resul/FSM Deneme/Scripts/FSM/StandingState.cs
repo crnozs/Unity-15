@@ -14,14 +14,13 @@ public class StandingState : State // Ýlk state'imiz.
     Vector3 currentVelocity;
     Vector3 cVelocity;
 
-
     // Yine ayný þekilde state'leri objelere atama yapýyoruz.
     public StandingState(Character _character, StateMachine _stateMachine) : base(_character, _stateMachine)
     {
         character = _character;
         stateMachine = _stateMachine;
     }
-
+    
     public override void Enter()
     {
         base.Enter(); // virtual enter fonksiyonu'nu trigger'lýyoruz.
@@ -51,10 +50,7 @@ public class StandingState : State // Ýlk state'imiz.
         {
             jump = true;
         }
-        /*if (crouchAction.triggered)
-        {
-            crouch = true;
-        }*/
+
         if (sprintAction.triggered)
         {
             sprint = true;
@@ -69,6 +65,8 @@ public class StandingState : State // Ýlk state'imiz.
         input = moveAction.ReadValue<Vector2>();
         velocity = new Vector3(input.x, 0, input.y);
 
+        
+
         // 
         velocity = velocity.x * character.cameraTransform.right.normalized + velocity.z * character.cameraTransform.forward.normalized;
         velocity.y = 0f; // Karakter koþarken kamera yukarý aþaðý sallanmasýn diye y'sini 0'a çekiyoruz.
@@ -82,7 +80,7 @@ public class StandingState : State // Ýlk state'imiz.
         base.LogicUpdate(); //virtual LogicUpdate fonksiyonu'nu trigger'lýyoruz.
 
         //Input'lardan aldýðýmýz deðerleri animator'deki speed parametresine atýyoruz.
-        character.animator.SetFloat("speed", input.magnitude, character.speedDampTime, Time.deltaTime);
+        character.animator.SetFloat("speed",input.magnitude, character.speedDampTime, Time.deltaTime);
 
         // Verilen aksiyona göre state deðiþtiriyoruz.
         if (sprint) //StandingState'ten SprintState'e geçiþ.
@@ -93,10 +91,7 @@ public class StandingState : State // Ýlk state'imiz.
         {
             stateMachine.ChangeState(character.jumping);
         }
-        /*if (crouch) //StandingState'ten CrouchState'e geçiþ.
-        {
-            stateMachine.ChangeState(character.crouching);
-        }*/
+        
         if (drawWeapon) // StandingState'ten CombatState'e geçiþ.
         {
             stateMachine.ChangeState(character.combatting);
@@ -139,7 +134,7 @@ public class StandingState : State // Ýlk state'imiz.
 
         if (velocity.sqrMagnitude > 0)
         {
-            character.transform.rotation = Quaternion.LookRotation(velocity); // State sonunda rotasyonuda güncelliyoruz.
+            character.transform.rotation = Quaternion.LookRotation(velocity); // State sonunda karakterin en son baktýðý yöne bakmaya devam etmesini saðlýyoruz.
         }
     }
 
