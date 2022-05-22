@@ -129,6 +129,13 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Kanban panosunda göz
 - **Daily Scrum**: Discord chat screenshotları:
 
 
+![-Chat1-](https://user-images.githubusercontent.com/104391555/169702642-7ee0d6d7-6ffd-47b9-b212-aa672d7cc5fd.png)
+
+![-Chat2-](https://user-images.githubusercontent.com/104391555/169702759-8249d952-5729-4658-b271-6cfc9825e166.png)
+
+![-Chat3-](https://user-images.githubusercontent.com/104391555/169702898-a53006b6-5bb1-4c70-8f51-721f9146ec7b.png)
+
+![-Chat4-](https://user-images.githubusercontent.com/104391555/169702927-aeccd256-40d3-41bf-96b3-60013fa991b4.png)
 
 
 
