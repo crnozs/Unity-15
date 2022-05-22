@@ -124,7 +124,8 @@ Alınan kararlar: Oyunda, karakterin bulunduğu evren dışındaki diğer evrenl
 Story'ler yapılacak işlere (task'lere) bölünmüştür. Kanban panosunda gözüken to-do listesi yapılacak işleri (task) gösterirken, design ve mechanics listeleri story'leri temsil etmektedir.
 
 - **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Discord üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği word olarak Readme'de tarafımızdan paylaşılmaktadır:
-[DailyScrumMeetingNotesSprint1]
+[DailyScrumMeetingNotesSprint2](https://github.com/crnozs/Unity-15/files/8749853/DailyScrumMeetingNotesSprint2.docx)
+
 
 - **Daily Scrum**: Discord chat screenshotları:
 
