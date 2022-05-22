@@ -113,7 +113,7 @@ Alınan kararlar: Oyunda, karakterin bulunduğu evren dışındaki diğer evrenl
 
 # SPRINT 2
 
-- **Sprint Notları**: Oyunun GDD'si ve yapılacak tasklar yeniden düzenlenmiş, Trello üzerinde değişiklikler kaydedilmiştir. Product backlog item'lara tıklandığında detaylar okunabilir.
+- **Sprint Notları**: İkinci sprint başında, oyunda yapılması planlanan güçlendirme tasarımları ve mekaniği yapım aşamalarından kaldırılmıştır. Oyunun GDD'si ve yapılacak tasklar yeniden düzenlenmiş, Trello üzerinde değişiklikler kaydedilmiştir. Product backlog item'lara tıklandığında detaylar okunabilir.
 
 - **Sprint içinde tamamlanması tahmin edilen puan**: 160 Puan
 
