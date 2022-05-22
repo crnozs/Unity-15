@@ -145,25 +145,20 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Kanban panosunda göz
 
 - **Ürün Durumu**: Ekran görüntüleri:
 
+![image](https://user-images.githubusercontent.com/104391555/169703377-395d762d-8c6d-4dba-97ec-92082dec20e1.png)
+*Resim.1.Tasarlanma süreci bitmiş olan karakterin ayarlanması(1)*
 
-*Karakterin kılıç animasyonlarından görüntüler 1*
+![image](https://user-images.githubusercontent.com/104391555/169703463-1e4a1291-9f18-4c1d-990b-a49b03a95729.png)
+*Resim.2.Tasarlanma süreci bitmiş olan karakterin ayarlanması(2)*
 
+![image](https://user-images.githubusercontent.com/104391555/169703528-d75b51fb-2cf0-4883-ae10-99f4e436baf6.png)
+*Resim.3.Tasarlanma süreci bitmiş olan karakterin ayarlanması(3)*
 
-*Karakterin kılıç animasyonlarından görüntüler 2*
+![image](https://user-images.githubusercontent.com/104391555/169703584-84ec93ae-d98e-47ab-94d1-f0b7c43ffca2.png)
+*Resim.4.Karakterin büyülü orman evreninde test edilmesi*
 
-
-*Karakterin kılıç animasyonlarından görüntüler 3*
-
-
-*Yapılan 3D assetlerin sahne içerisindeki deneme görüntüleri*
-
-
-*Büyülü orman kuşbakışı map görünümü*
-
-
-*Portal tasarımları için ana taslak*
-
-
+![image](https://user-images.githubusercontent.com/104391555/169703666-2af466bf-50e5-46d4-8b3f-7e962b395cd5.png)
+*Resim.5.Büyülü orman map'ine yapılan eklemeler*
 
 
 - **Sprint Review**: 
