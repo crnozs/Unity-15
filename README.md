@@ -175,17 +175,11 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Kanban panosunda göz
 
 
 - **Sprint Review**: 
-Alınan kararlar: Ağlayan melek ve ruhlar evreni map tasarımı uzun sürdüğünden dolayı bir sonraki sprinte alınmasına karar verilmiştir. Sprint Review katılımcıları: İrem Nur Eroğlu, Ceren Özsayın, Ahmet Recep Ocak, Resul Kızmaz.
+Alınan kararlar: Ağlayan melek ve ruhlar evreni map tasarımı uzun sürdüğünden dolayı bir sonraki sprinte alınmasına karar verilmiştir. Büyülü ormanda karakterin gezinmesi veya itemlerle etkileşime geçmesi ile ilgili bir sorun tespit edilmemiştir. Golemin savaşma animasyonu olan taş atma animasyonu bir sonraki sprintte tamamlanacaktır. Sprint Review katılımcıları: İrem Nur Eroğlu, Ceren Özsayın, Ahmet Recep Ocak, Resul Kızmaz.
 
 - **Sprint Retrospective:**
-  - Genel toplantıların günleri ve saatleri kesin olarak kararlaştırılmıştır.
-  - Tahmin puanları incelenecek ve sprint planlama toplantılarında gerekli geri bildirimler developerlar tarafından verilecektir.
-  - Developerlar arası iş bölümü düzenlenecektir. 
- 
-- **Diğer Notlar:**
-
-
-
+  - Sprint başı çıkarılmak istenen veya eklenmek istenen özellikler kesin olarak tespit edilecektir.
+  - Tasarımcılar arası iş bölümü düzenlenecektir. 
 
 ---
 
