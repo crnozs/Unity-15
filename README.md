@@ -123,6 +123,55 @@ Alınan kararlar: Oyunda, karakterin bulunduğu evren dışındaki diğer evrenl
 
 Story'ler yapılacak işlere (task'lere) bölünmüştür. Kanban panosunda gözüken to-do listesi yapılacak işleri (task) gösterirken, design ve mechanics listeleri story'leri temsil etmektedir.
 
+- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Discord üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği word olarak Readme'de tarafımızdan paylaşılmaktadır:
+[DailyScrumMeetingNotesSprint1]
+
+- **Daily Scrum**: Discord chat screenshotları:
+
+
+
+
+
+- **Sprint board update**: Sprint board screenshotları: 
+
+
+
+- **Ürün Durumu**: Ekran görüntüleri:
+
+
+*Karakterin kılıç animasyonlarından görüntüler 1*
+
+
+*Karakterin kılıç animasyonlarından görüntüler 2*
+
+
+*Karakterin kılıç animasyonlarından görüntüler 3*
+
+
+*Yapılan 3D assetlerin sahne içerisindeki deneme görüntüleri*
+
+
+*Büyülü orman kuşbakışı map görünümü*
+
+
+*Portal tasarımları için ana taslak*
+
+
+
+
+- **Sprint Review**: 
+Alınan kararlar: Oyunda, karakterin bulunduğu evren dışındaki diğer evrenlerde kullanabileceği güçlendiriciler olması gerektiğine karar verilmiştir. Büyülü orman evreni harita tasarımı bu sprintte biteceği öngörüldüğünden bu değişiklik bir sonraki sprintte uygulanacaktır. Golem tasarımı ve animasyonları bir sonraki sprintte tamamlanacaktır.  Sprint Review katılımcıları: İrem Nur Eroğlu, Ceren Özsayın, Ahmet Recep Ocak, Resul Kızmaz, Çağlar Karahüseyin.
+
+- **Sprint Retrospective:**
+  - Genel toplantıların günleri ve saatleri kesin olarak kararlaştırılmıştır.
+  - Tahmin puanları incelenecek ve sprint planlama toplantılarında gerekli geri bildirimler developerlar tarafından verilecektir.
+  - Developerlar arası iş bölümü düzenlenecektir. 
+ 
+- **Diğer Notlar:**
+6 Nisan'da yapılan ekip toplantısına ait toplantı gündem belgesi:
+
+
+
 ---
 
 # SPRINT 3
