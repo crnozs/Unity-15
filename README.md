@@ -142,6 +142,9 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Kanban panosunda göz
 
 - **Sprint board update**: Sprint board screenshotları: 
 
+![image](https://user-images.githubusercontent.com/104391555/169707957-ef8696fb-50e9-4739-8069-890ce7e020b4.png)
+
+![image](https://user-images.githubusercontent.com/104391555/169707975-2eeb0565-e1d0-42bd-ae4f-9f40f7bb43b4.png)
 
 
 - **Ürün Durumu**: Ekran görüntüleri:
