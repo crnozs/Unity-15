@@ -175,7 +175,7 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Kanban panosunda göz
 
 
 - **Sprint Review**: 
-Alınan kararlar: Oyunda, karakterin bulunduğu evren dışındaki diğer evrenlerde kullanabileceği güçlendiriciler olması gerektiğine karar verilmiştir. Büyülü orman evreni harita tasarımı bu sprintte biteceği öngörüldüğünden bu değişiklik bir sonraki sprintte uygulanacaktır. Golem tasarımı ve animasyonları bir sonraki sprintte tamamlanacaktır.  Sprint Review katılımcıları: İrem Nur Eroğlu, Ceren Özsayın, Ahmet Recep Ocak, Resul Kızmaz, Çağlar Karahüseyin.
+Alınan kararlar: Ağlayan melek ve ruhlar evreni map tasarımı uzun sürdüğünden dolayı bir sonraki sprinte alınmasına karar verilmiştir. Sprint Review katılımcıları: İrem Nur Eroğlu, Ceren Özsayın, Ahmet Recep Ocak, Resul Kızmaz.
 
 - **Sprint Retrospective:**
   - Genel toplantıların günleri ve saatleri kesin olarak kararlaştırılmıştır.
@@ -183,7 +183,7 @@ Alınan kararlar: Oyunda, karakterin bulunduğu evren dışındaki diğer evrenl
   - Developerlar arası iş bölümü düzenlenecektir. 
  
 - **Diğer Notlar:**
-6 Nisan'da yapılan ekip toplantısına ait toplantı gündem belgesi:
+
 
 
 
