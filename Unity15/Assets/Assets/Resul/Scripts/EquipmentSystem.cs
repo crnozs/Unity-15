@@ -21,14 +21,14 @@ public class EquipmentSystem : MonoBehaviour
 
 
 
-    public void DrawWeapon()
+    public void DrawWeapon() // Kýlýcý çektiðimizde gerçekleþecek olan event.
     {
         currentWeaponInHand = Instantiate(weapon, weaponHolder.transform);
         weaponTrails = Instantiate(trails, weaponHolder.transform);
         Destroy(currentWeaponInSheath);
     }
 
-    public void SheathWeapon()
+    public void SheathWeapon() // Kýlýcý geri koyduðumuzda gerçekleþecek olan event.
     {
         currentWeaponInSheath = Instantiate(weapon, weaponSheath.transform);
         Destroy(currentWeaponInHand);
@@ -36,11 +36,11 @@ public class EquipmentSystem : MonoBehaviour
     }
 
 
-    public void StartDealDamage()
+    public void StartDealDamage() // DamageDealer scriptindeki fonksiyona event ile ulaþtýk.
     {
         currentWeaponInHand.GetComponentInChildren<DamageDealer>().StartDealDamage();
     }
-    public void EndDealDamage()
+    public void EndDealDamage() // DamageDEaler scriptindeki fonksiyona event ile ulaþtýk. Fonksiyonlarýn hepsini
     {
         currentWeaponInHand.GetComponentInChildren<DamageDealer>().EndDealDamage();
     }

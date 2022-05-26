@@ -36,7 +36,7 @@ public class AttackState : State
         base.LogicUpdate();
 
         timePassed += Time.deltaTime;
-        clipLength = character.animator.GetCurrentAnimatorClipInfo(1)[0].clip.length; // Animasyon süresinin uzunluðununa ulaþtýk 
+        clipLength = character.animator.GetCurrentAnimatorClipInfo(1)[0].clip.length; // Animasyon süresinin uzunluðununa ulaþtýk (indisler önemli)
         clipSpeed = character.animator.GetCurrentAnimatorStateInfo(1).speed; //Animasyonun hýzýna ulaþtýk.
 
 

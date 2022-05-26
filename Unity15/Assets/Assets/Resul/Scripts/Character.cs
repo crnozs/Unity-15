@@ -13,7 +13,7 @@ public class Character : MonoBehaviour
     public float rotationSpeed = 5f;
     
 
-    bool heroDeath;
+    public bool heroDeath;
     float deathDelay = 3f;
 
     [Header("Animation Smoothing")] //idle animasyonundan hareket animasyonlarýna ne kadar çabuk geçmek istediðimizi belirledik.
@@ -104,9 +104,8 @@ public class Character : MonoBehaviour
         }
         
     }
-    IEnumerator heroDeathEnum()
+    IEnumerator heroDeathEnum() // Animasyon tamamen oynadýktan bir süre sonra sahne baþa sarýyor.
     {
-        Debug.Log("ÖLDÜÜÜNNNN");
         animator.SetTrigger("death");
         heroDeath = true;
 

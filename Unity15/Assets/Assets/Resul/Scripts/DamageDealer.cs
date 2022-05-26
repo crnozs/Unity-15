@@ -23,11 +23,14 @@ public class DamageDealer : MonoBehaviour
             int layerMask = 1 << 9; // Layer mask oluþturuyoruz ki damage vermek istemediðimiz nesneleri göz ardý edebilelim.
             if (Physics.Raycast(transform.position, -transform.up, out hit, weaponLength, layerMask))
             {
-                if (!hasDealtDamage.Contains(hit.transform.gameObject))
+                // Vurduðumuz nesnenin içerisinde EnemySkeleton componenti var mý ve daha önceden damage atýlmamýþ mý diðe kontrol ediyoruz.
+                if (hit.transform.TryGetComponent(out EnemySkeleton enemySkeleton) && !hasDealtDamage.Contains(hit.transform.gameObject))
                 {
-                    print("damage");
+                    enemySkeleton.TakeDamage(weaponDamage);
                     hasDealtDamage.Add(hit.transform.gameObject);
+                    print("SKELETON TAKE DAMAGE");
                 }
+                
             }
         }
     }
@@ -45,6 +48,6 @@ public class DamageDealer : MonoBehaviour
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.yellow; 
-        Gizmos.DrawLine(transform.position, transform.position - transform.up * weaponLength);  
+        Gizmos.DrawLine(transform.position, transform.position - transform.up * weaponLength); //Kýlýcýn ucundan tutamacýna doðru bir çizgi ile kontrol ediyoruz.
     }
 }
