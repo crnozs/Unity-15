@@ -23,7 +23,7 @@ public class attackBehavior : StateMachineBehaviour
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         animator.SetBool("isAttack", false);
-        animator.ResetTrigger("attack"); // artarda týkladýðýmýzda oluþan bugu çözmek için trigger'ý resetliyoruz.
+        animator.ResetTrigger("attack"); // ardarda týkladýðýmýzda oluþan bugu çözmek için trigger'ý resetliyoruz.
 
 
     }
