@@ -7,6 +7,7 @@ TagManager:
   - enemy
   - onlyWalk
   - pool
+  - Lava
   layers:
   - Default
   - TransparentFX
