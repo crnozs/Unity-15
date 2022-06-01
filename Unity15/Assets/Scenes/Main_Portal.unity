@@ -17820,7 +17820,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a7f489efc4c5cd4cb02ac4472bddb6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelLoadDelay: 5
+  levelLoadDelay: 1
   sceneIndex: 1
 --- !u!1 &1383769597 stripped
 GameObject:
