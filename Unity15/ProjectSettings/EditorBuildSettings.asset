@@ -11,5 +11,8 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Assets/Resul/Scenes/MA\u0130N FORREST.unity"
     guid: 3165b9084061e154786dcc89694c0fda
+  - enabled: 1
+    path: Assets/Scenes/Graveyard.unity
+    guid: bd2e630fdcfd4d840914a8553af40fa4
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: cbbff5317e11bfe41ba1fcce9847d83b, type: 2}

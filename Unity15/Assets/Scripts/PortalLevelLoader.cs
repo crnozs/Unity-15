@@ -1,25 +1,26 @@
 using UnityEngine;
+using System;
+using System.Collections;
 using UnityEngine.SceneManagement;
 
 public class PortalLevelLoader : MonoBehaviour
 {
     [SerializeField] float levelLoadDelay = 2f;
+    [SerializeField] int sceneIndex;
  
-
-    void OnCollisionEnter(Collision other)
-    {
-        StartSuccessSequence();
-    }
-
-
-    void StartSuccessSequence()
-    {
-        GetComponent<Character>().enabled = false;
-        Invoke("LoadNextLevel", levelLoadDelay);
-
-    }
-
    
+    void OnTriggerEnter(Collider other)
+    {
+        other.gameObject.GetComponent<Character>().enabled = false;
+        StartCoroutine(Delay());
+    }
+    IEnumerator Delay()
+    {
+        yield return new WaitForSeconds(levelLoadDelay);
+        SceneManager.LoadScene(sceneIndex);
+    }
+
+      
 
     void LoadNextLevel()
     {

@@ -17709,7 +17709,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a7f489efc4c5cd4cb02ac4472bddb6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelLoadDelay: 2
+  levelLoadDelay: 1
+  sceneIndex: 2
 --- !u!1 &1372197631
 GameObject:
   m_ObjectHideFlags: 0
@@ -17722,6 +17723,7 @@ GameObject:
   - component: {fileID: 1372197635}
   - component: {fileID: 1372197634}
   - component: {fileID: 1372197633}
+  - component: {fileID: 1372197636}
   m_Layer: 0
   m_Name: Portal Enterance
   m_TagString: Untagged
@@ -17806,6 +17808,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1372197631}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1372197636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1372197631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a7f489efc4c5cd4cb02ac4472bddb6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelLoadDelay: 5
+  sceneIndex: 1
 --- !u!1 &1383769597 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1849409136748386, guid: 73c6b237be969a34baa3a7136a2e2a14, type: 3}
