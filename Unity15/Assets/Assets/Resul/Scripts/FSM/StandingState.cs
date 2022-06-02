@@ -89,12 +89,15 @@ public class StandingState : State // Ýlk state'imiz.
         if (character.isOnlyWalk)
         {
             playerSpeed = 3;
-            character.animator.SetFloat("speed", input.magnitude -0.5f, character.speedDampTime, Time.deltaTime);            
+            character.animator.SetFloat("speed", input.magnitude -0.5f, character.speedDampTime, Time.deltaTime); 
+            // Piyano sesi baþlat
         }
         else
         {
             playerSpeed = 5;
             character.animator.SetFloat("speed", input.magnitude, character.speedDampTime, Time.deltaTime);
+
+            // Normal background - yürüme -  sesi
 
             // Verilen aksiyona göre state deðiþtiriyoruz.
             if (sprint) //StandingState'ten SprintState'e geçiþ.
@@ -104,10 +107,12 @@ public class StandingState : State // Ýlk state'imiz.
             if (jump) // StandingState'ten JumpingState'e geçiþ.
             {
                 stateMachine.ChangeState(character.jumping);
+                
             }
 
             if (drawWeapon) // StandingState'ten CombatState'e geçiþ.
             {
+                
                 stateMachine.ChangeState(character.combatting);
                 character.animator.SetTrigger("drawWeapon");
             }

@@ -15,6 +15,8 @@ public class AttackState : State
     {
         base.Enter();
 
+        // Kýlýç savurma sesi
+
         attack = false;
         character.animator.applyRootMotion = true; // Animasyonda rootmotion kullandýðýmýz için gerekli komponente ulaþtýk.
         timePassed = 0f;

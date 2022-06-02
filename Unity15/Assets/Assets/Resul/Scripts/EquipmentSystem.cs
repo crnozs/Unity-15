@@ -15,6 +15,7 @@ public class EquipmentSystem : MonoBehaviour
     GameObject weaponTrails;
     void Start()
     {
+        // KILIÇ TAÞTAN ALININCA ÝNÝT ETTÝR
         currentWeaponInSheath = Instantiate(weapon, weaponSheath.transform);
         
     }

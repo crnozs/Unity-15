@@ -34,6 +34,7 @@ public class JumpingState : State
         character.animator.SetFloat("speed", 0);
         character.animator.SetTrigger("jump");
         Jump();
+        // zýplarken "ýh"'lama sesi gelebilir.
     }
 
     // State giriþinin hemen ardýndan Action Map üzerinden input deðerlerini alýyoruz.

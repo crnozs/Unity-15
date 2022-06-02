@@ -24,6 +24,9 @@ public class CombatState : State
     {
         base.Enter();
 
+        //kýlýcýn kýnýndan çýkýþ sesi
+
+
         sheathWeapon = false;//*** 1
         input = Vector2.zero;
         currentVelocity = Vector3.zero;
@@ -70,6 +73,8 @@ public class CombatState : State
         {
             character.animator.SetTrigger("sheathWeapon");
             stateMachine.ChangeState(character.standing);
+
+            // Kýlýcýn kýna koyulma sesi
         }
 
         if (attack) // *** 3

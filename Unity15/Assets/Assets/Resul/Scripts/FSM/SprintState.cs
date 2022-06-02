@@ -75,6 +75,7 @@ public class SprintState : State // Karakterimiz koþarken left shift tuþuna basa
         if (sprint) // Sprint halindeyken maksimum hýzýmýzýn sýnýrý 1 den 1.5 e çýktýðý için animatördeki speed deðerini arttýrýyoruz.
         {
             character.animator.SetFloat("speed", input.magnitude + 0.5f, character.speedDampTime, Time.deltaTime);
+            // Hýzlý koþma sesi
         }
         
         else

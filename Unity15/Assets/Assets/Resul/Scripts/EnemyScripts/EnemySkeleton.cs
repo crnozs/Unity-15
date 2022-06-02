@@ -38,6 +38,8 @@ public class EnemySkeleton : MonoBehaviour
             {
                 anim.SetTrigger("attack");
                 timePassed = 0;
+
+                // Ýskeler kýlýç savurma sesi
             }
         }
         timePassed += Time.deltaTime;
@@ -47,6 +49,8 @@ public class EnemySkeleton : MonoBehaviour
         {
             newDestinationCD = 0.5f;
             agent.SetDestination(player.transform.position);
+
+            // Ýskeler yürüme sesi
         }
         newDestinationCD -= Time.deltaTime;
         transform.LookAt(player.transform); // karakterimizi takip ederken ona bakmasýný da saðlamýþ olduk.
@@ -54,6 +58,8 @@ public class EnemySkeleton : MonoBehaviour
 
     public void TakeDamage(float damageAmount)
     {
+        // Ýskelet hasar alma sesi
+
         healt -= damageAmount;
         anim.SetTrigger("damage");
         
