@@ -28559,6 +28559,7 @@ GameObject:
   - component: {fileID: 1913256582}
   - component: {fileID: 1913256581}
   - component: {fileID: 1913256580}
+  - component: {fileID: 7275056348689342167}
   m_Layer: 0
   m_Name: Portal Enterance
   m_TagString: Untagged
@@ -35506,6 +35507,20 @@ Transform:
   m_Father: {fileID: 1932261858193300987}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7275056348689342167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1913256578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a7f489efc4c5cd4cb02ac4472bddb6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelLoadDelay: 1
+  sceneIndex: 0
 --- !u!4 &7569968913313324239
 Transform:
   m_ObjectHideFlags: 0
