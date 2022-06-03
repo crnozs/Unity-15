@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Main_Portal.unity
     guid: ca11b02b6c30bfb43853810741831bd4
   - enabled: 1
-    path: "Assets/Assets/Resul/Scenes/MA\u0130N FORREST.unity"
+    path: Assets/Scenes/Main Forest.unity
     guid: 3165b9084061e154786dcc89694c0fda
   - enabled: 1
     path: Assets/Scenes/Graveyard.unity
