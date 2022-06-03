@@ -8,6 +8,7 @@ TagManager:
   - onlyWalk
   - pool
   - Lava
+  - UI
   layers:
   - Default
   - TransparentFX
