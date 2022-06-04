@@ -36,6 +36,9 @@ Takım: Snow Fox Games
 - Fantastik türünde oyunlar oynamayı seven oyuncular
 - 12 yaş üzeri oyuncular
 
+## Kullanılan Unity Versiyonu
+
+-2020.3.25f1
 
 ## Product Backlog URL
 
