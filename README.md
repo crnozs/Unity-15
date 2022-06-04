@@ -47,18 +47,19 @@ Takım: Snow Fox Games
 - [Backlog Puanlama](https://trello.com/c/QrAdtcDY/12-backlog-puanlamalar%C4%B1)
 
 ## Referans - Kullanılan Assetler
--Standard Assets (for Unity 2018.4) 
--https://github.com/Unity-Technologies/Standard-Assets-Characters/blob/master/Assets/_Standard%20Assets/Characters/Animation/Male/Animations/Strafe/m%40RapidStrafeForwards.fbx
--FREE Skybox Extended Shader
--Handpainted Grass & Ground Textures
--Lowpoly Medieval Skeleton - Free Pack
--Mini Legion Rock Golem PBR HP Polyart
--Terrain Sample Asset Pack
--Stylized Brick Texture 
--Mixamo Sword and Shield animation pack
--Tomb
--Skybox Series Free
--Feline Gargoyle
+
+- Standard Assets (for Unity 2018.4) 
+- https://github.com/Unity-Technologies/Standard-Assets-Characters/blob/master/Assets/Standard%20Assets/Characters/Animation/Male/Animations/Strafe/m%40RapidStrafeForwards.fbx
+- FREE Skybox Extended Shader
+- Handpainted Grass & Ground Textures
+- Lowpoly Medieval Skeleton - Free Pack
+- Mini Legion Rock Golem PBR HP Polyart
+- Terrain Sample Asset Pack
+- Stylized Brick Texture 
+- Mixamo Sword and Shield animation pack
+- Tomb
+- Skybox Series Free
+- Feline Gargoyle
 ---
 
 # SPRINT 1
