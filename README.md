@@ -38,7 +38,7 @@ Takım: Snow Fox Games
 
 ## Kullanılan Unity Versiyonu
 
--2020.3.25f1
+- 2020.3.25f1
 
 ## Product Backlog URL
 
