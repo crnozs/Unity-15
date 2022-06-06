@@ -265,6 +265,6 @@ Alınan kararlar: Steampunk evreni, ağlayan melek tasarımı, firebase entegras
 - **Sprint Retrospective:**
   - Çıkarılmak istenen özellikler fikir birliğine varıldığı sürece çıkarılmalıdır.
   - Tasarım ve animasyonların ayarlanması konusunda tasarımcılar ve developerlar arasında kesin bir ayrıma gidilmelidir.
-  - Zamansal süreçlere dikkat edilmeli ve zaman sınırını aşmayacak şekilde görev dağılımı yapılmalıdır.  
+  - Zamansal süreçlere dikkat edilmeli ve zaman sınırının aşılmasına neden olabilecek görev dağılımı yapılmamalıdır.  
 
 ---
