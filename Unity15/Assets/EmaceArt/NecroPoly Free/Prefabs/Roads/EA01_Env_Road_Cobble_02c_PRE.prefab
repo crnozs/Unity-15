@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2526139467502651844}
   - component: {fileID: 354184855074372878}
   - component: {fileID: 4570771923637871239}
+  - component: {fileID: 686420778211061210}
   m_Layer: 0
   m_Name: EA01_Env_Road_Cobble_02c_PRE
   m_TagString: Untagged
@@ -28,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 2299841118586035419}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 13.705986, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -56,6 +57,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -80,6 +82,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &4570771923637871239
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -94,3 +97,15 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5420344152757102633, guid: 841d75412e84d384f88dc06558b93966, type: 3}
+--- !u!114 &686420778211061210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2299841118586035419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1dd474fc97dc98429380c5b1058e64d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

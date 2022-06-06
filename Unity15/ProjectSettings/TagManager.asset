@@ -9,6 +9,7 @@ TagManager:
   - pool
   - Lava
   - UI
+  - angel
   layers:
   - Default
   - TransparentFX
