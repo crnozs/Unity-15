@@ -183,7 +183,7 @@ MonoBehaviour:
   m_text: 'Alternative universe will be soon...
 
 
-    Thank you for playing'
+    Thank you for playing.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4f0dd214eb6d58a4dbce7ee060b2ebae, type: 2}
   m_sharedMaterial: {fileID: -163791827093222859, guid: 4f0dd214eb6d58a4dbce7ee060b2ebae, type: 2}
