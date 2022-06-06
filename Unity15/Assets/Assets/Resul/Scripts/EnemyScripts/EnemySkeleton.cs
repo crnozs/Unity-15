@@ -16,13 +16,17 @@ public class EnemySkeleton : MonoBehaviour
     NavMeshAgent agent;
     Animator anim;
     float timePassed; // 2 attack arasýnda geçen süre (zamana baðlý)
-    float newDestinationCD = 0.5f; 
-    
+    float newDestinationCD = 0.5f;
+    int count;
+
+    acilSusamAcil acilLan;
 
     float deathDelay = 3f;
 
     private void Start()
     {
+        acilLan = Object.FindObjectOfType<acilSusamAcil>();
+        count= 0;
         player = GameObject.FindWithTag("Player"); // Sürekli karakterimizi takip edeceði için.
         anim = GetComponent<Animator>();
         agent = GetComponent<NavMeshAgent>();
@@ -54,6 +58,11 @@ public class EnemySkeleton : MonoBehaviour
         }
         newDestinationCD -= Time.deltaTime;
         transform.LookAt(player.transform); // karakterimizi takip ederken ona bakmasýný da saðlamýþ olduk.
+
+        if (count==5)
+        {
+            acilLan.anim.SetTrigger("open");
+        }
     }
 
     public void TakeDamage(float damageAmount)
@@ -73,6 +82,7 @@ public class EnemySkeleton : MonoBehaviour
     IEnumerator skeletonDeathEnum() 
     {
         anim.SetTrigger("death");
+        count += 1;
         
 
         yield return new WaitForSeconds(deathDelay);

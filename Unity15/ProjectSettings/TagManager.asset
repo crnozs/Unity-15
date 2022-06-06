@@ -3,20 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - enemy
-  - onlyWalk
-  - pool
-  - Lava
-  - UI
-<<<<<<< Updated upstream
-  - angel
-=======
-  - Collect1
-  - Collect2
-  - Collect3
-  - Collect4
->>>>>>> Stashed changes
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -24,11 +11,11 @@ TagManager:
   - 
   - Water
   - UI
-  - Ground
-  - Envirement
-  - Player
-  - Enemy
-  - Ragdoll
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
