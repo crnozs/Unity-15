@@ -8,7 +8,8 @@ public class SwordInfo : MonoBehaviour
     {
         if(other.gameObject.CompareTag("UI"))
         {
-            other.gameObject.SetActive(true);
+            var a = other.gameObject.transform.GetChild(0).gameObject;
+            a.SetActive(true);
             Debug.Log("E");
         }
     }
@@ -17,7 +18,8 @@ public class SwordInfo : MonoBehaviour
     {
         if (other.gameObject.CompareTag("UI"))
         {
-            other.gameObject.SetActive(false);
+            var a = other.gameObject.transform.GetChild(0).gameObject;
+            a.SetActive(false);
             Debug.Log("Closer");
         }
     }
