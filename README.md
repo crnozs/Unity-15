@@ -69,6 +69,12 @@ Takım: Snow Fox Games
 - Tomb
 - Skybox Series Free
 - Feline Gargoyle
+- Footsteps - https://freesound.org/people/revolt2563/sounds/352870/
+- Ruhlar evreni - https://freesound.org/people/colorsCrimsonTears/sounds/556419/
+- Büyülü orman background - Melodious piano works
+- Doğa sesleri - Nature- Essentials
+- Uzay adası - https://freesound.org/people/SamsterBirdies/sounds/555384/
+- Başlangıç ekranı - https://freesound.org/people/Victor_Natas/sounds/545217/
 
 ## Oyun İle İlgili Son Notlar
 
