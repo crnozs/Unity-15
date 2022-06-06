@@ -226,7 +226,7 @@ Alınan kararlar: Ağlayan melek ve ruhlar evreni map tasarımı uzun sürdüğ�
 
 - **Sprint içinde tamamlanması tahmin edilen puan**: 98 Puan
 
-- **Puan tamamlama mantığı**: Backlog puanlaması 0, 1, 2, 3, 5, 8, 13 sayıları arasında yapılmaktadır. Toplamda proje boyunca tamamlanması gereken 351 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ikinci sprint'in en azından 98 ile başlaması gerektiğine karar verildi.
+- **Puan tamamlama mantığı**: Backlog puanlaması 0, 1, 2, 3, 5, 8, 13 sayıları arasında yapılmaktadır. Toplamda proje boyunca tamamlanması gereken 351 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde üçüncü sprint'in en azından 98 ile başlaması gerektiğine karar verildi.
 
 - **Backlog düzeni ve Story seçimleri**: Ürün Backlog'unda oyunun ve özelliklerinin detaylı bir şekilde açıklaması bulunmaktadır. Yapılacak tasklar; evrenlerde yapılacak işlere göre, sırayla gruplandırılmıştır.  Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır.
 
