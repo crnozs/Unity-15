@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class piano : MonoBehaviour
+public class Piano: MonoBehaviour
 {
 
     public AudioSource pianosound;
