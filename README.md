@@ -66,6 +66,11 @@ Takım: Snow Fox Games
 - Tomb
 - Skybox Series Free
 - Feline Gargoyle
+
+## Oyun İle İlgili Son Notlar
+
+Oyunun yapılan bu demo sürümü, evrenlerden iki tanesini kapsamaktadır. Geliştirilmesi planlanan oyunda, yeni ve farklı mekaniklere sahip evrenlerin eklenmesi öngörülmektedir. Demo sürüm olması sebebiyle portallardan ilk olarak yeşil olanına girilmesi gerekmektedir. Oyunun yayınlanması planlanan gerçek sürümünde ise oyuncular, istekleri doğrultusunda önlerinde sıralanan portallardan herhangi birine geçip evrenlere ışınlanabilir.
+
 ---
 
 # SPRINT 1
