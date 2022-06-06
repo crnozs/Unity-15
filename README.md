@@ -240,11 +240,15 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Kanban panosunda göz
 
 *Resim.3.Karakterin büyülü ormandaki boss ile karşılaşması*
 
+![image](https://user-images.githubusercontent.com/104391555/172212594-96153c48-28c3-4d62-87c2-9f6b895e6693.png)
+
+*Resim.4.Ruhlar evreni*
+
 
 - **Sprint Review**: 
 Alınan kararlar: Sprint Review katılımcıları: İrem Nur Eroğlu, Ceren Özsayın, Ahmet Recep Ocak, Resul Kızmaz.
 
-- **Sprint Retrospective:**
+- **Sprint Retrospective**:
   - 
  
 
