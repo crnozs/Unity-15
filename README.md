@@ -40,6 +40,12 @@ Takım: Snow Fox Games
 
 - 2020.3.25f1
 
+## Oynanış Biçimi
+
+- W, A, S, D ve mouse hareketleri -> Karakteri yönlendirme
+- R -> Karakterin savaş moduna geçmesi
+- Mouse Click -> Kılıç Savurma
+
 ## Product Backlog URL
 
 - [Trello Kanban](https://trello.com/b/Wbsna4s3/unity-15)
