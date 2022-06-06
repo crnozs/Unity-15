@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.32107174, g: 0.21133253, b: 0.40438062, a: 1}
+  m_IndirectSpecularColor: {r: 0.32097438, g: 0.2113182, b: 0.404351, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -43420,15 +43420,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 545400790919220819, guid: 5c67e69466c6e664983c7c3c8b568e82, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 218.98
+      value: 235
       objectReference: {fileID: 0}
     - target: {fileID: 545400790919220819, guid: 5c67e69466c6e664983c7c3c8b568e82, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.63
+      value: 36.8
       objectReference: {fileID: 0}
     - target: {fileID: 545400790919220819, guid: 5c67e69466c6e664983c7c3c8b568e82, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 181.4
+      value: 115.4
       objectReference: {fileID: 0}
     - target: {fileID: 545400790919220819, guid: 5c67e69466c6e664983c7c3c8b568e82, type: 3}
       propertyPath: m_LocalRotation.w
@@ -43823,6 +43823,7 @@ GameObject:
   - component: {fileID: 4829239067358705069}
   - component: {fileID: 6783812640836527907}
   - component: {fileID: 8800344698433407350}
+  - component: {fileID: 8800344698433407351}
   m_Layer: 0
   m_Name: onlyWalkStay
   m_TagString: onlyWalk
@@ -43926,3 +43927,15 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &8800344698433407351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8800344698433407349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96bd975ed40d75440b38b876065745d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
