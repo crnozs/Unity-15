@@ -222,7 +222,10 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Kanban panosunda göz
 ![2](https://user-images.githubusercontent.com/104391555/172155322-8fa3e1b1-b906-4fd0-aece-a97df9f1e599.png)
 ![3](https://user-images.githubusercontent.com/104391555/172155350-ebfc04ba-8407-4bca-8773-a20cfb2e1f10.png)
 
-- **Sprint board update**: Sprint board screenshotları: 
+- **Sprint board update**: Sprint board screenshotları:
+- ![image](https://user-images.githubusercontent.com/104391555/172158094-fc60113a-8ac4-4e17-88ae-978ab27154e0.png)
+- ![image](https://user-images.githubusercontent.com/104391555/172158135-8eba9c77-0446-4822-9d1d-e1cec0268696.png)
+ 
 - **Ürün Durumu**: Ekran görüntüleri:
 - **Sprint Review**: 
 Alınan kararlar: Sprint Review katılımcıları: İrem Nur Eroğlu, Ceren Özsayın, Ahmet Recep Ocak, Resul Kızmaz.
