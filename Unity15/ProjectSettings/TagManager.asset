@@ -9,7 +9,14 @@ TagManager:
   - pool
   - Lava
   - UI
+<<<<<<< Updated upstream
   - angel
+=======
+  - Collect1
+  - Collect2
+  - Collect3
+  - Collect4
+>>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX
