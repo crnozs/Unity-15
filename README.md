@@ -63,6 +63,8 @@ Takım: Snow Fox Games
 - Terrain Sample Asset Pack
 - Stylized Brick Texture 
 - Mixamo Sword and Shield animation pack
+- Fantasy Tombs & Necropoly Lite
+- Low Poly Simple Graveyard
 - Tomb
 - Skybox Series Free
 - Feline Gargoyle
