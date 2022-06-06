@@ -40,6 +40,12 @@ Takım: Snow Fox Games
 
 - 2020.3.25f1
 
+## Oynanış Biçimi
+
+- W, A, S, D ve mouse hareketleri -> Karakteri yönlendirme
+- R -> Karakterin savaş moduna geçmesi
+- Mouse Click -> Kılıç Savurma
+
 ## Product Backlog URL
 
 - [Trello Kanban](https://trello.com/b/Wbsna4s3/unity-15)
@@ -246,10 +252,11 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Kanban panosunda göz
 
 
 - **Sprint Review**: 
-Alınan kararlar: Sprint Review katılımcıları: İrem Nur Eroğlu, Ceren Özsayın, Ahmet Recep Ocak, Resul Kızmaz.
+Alınan kararlar: Steampunk evreni, ağlayan melek tasarımı, firebase entegrasyonu ve save sistemi bu sprintte yapılamadı. Son sorun tespitleri yapılıp, optimizasyona dikkat edilmesi gerektiğine karar verildi. Sprint Review katılımcıları: İrem Nur Eroğlu, Ceren Özsayın, Ahmet Recep Ocak, Resul Kızmaz.
 
-- **Sprint Retrospective**:
-  - 
- 
+- **Sprint Retrospective:**
+  - Çıkarılmak istenen özellikler fikir birliğine varıldığı sürece çıkarılmalıdır.
+  - Tasarım ve animasyonların ayarlanması konusunda tasarımcılar ve developerlar arasında kesin bir ayrıma gidilmelidir.
+  - Zamansal süreçlere dikkat edilmeli ve zaman sınırını aşmayacak şekilde görev dağılımı yapılmalıdır.  
 
 ---
