@@ -45,6 +45,7 @@ Takım: Snow Fox Games
 - W, A, S, D ve mouse hareketleri -> Karakteri yönlendirme
 - R -> Karakterin savaş moduna geçmesi
 - Mouse Click -> Kılıç Savurma
+- E -> Gerekli parçaları toplama
 
 ## Product Backlog URL
 
