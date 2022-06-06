@@ -213,10 +213,15 @@ Alınan kararlar: Ağlayan melek ve ruhlar evreni map tasarımı uzun sürdüğ�
 Story'ler yapılacak işlere (task'lere) bölünmüştür. Kanban panosunda gözüken to-do listesi yapılacak işleri (task) gösterirken, design ve mechanics listeleri story'leri temsil etmektedir.
 
 - **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Discord üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği word olarak Readme'de tarafımızdan paylaşılmaktadır:
-[DailyScrumMeetingNotesSprint2](https://github.com/crnozs/Unity-15/files/8749853/DailyScrumMeetingNotesSprint2.docx)
+[DailyScrumMeetingNotesSprint3](https://github.com/crnozs/Unity-15/files/8844185/DailyScrumMeetingNotesSprint3.docx)
+
 
 
 - **Daily Scrum**: Discord chat screenshotları:
+![1](https://user-images.githubusercontent.com/104391555/172155287-dcaf5594-e908-4f08-be1b-b8c4f913a1f4.png)
+![2](https://user-images.githubusercontent.com/104391555/172155322-8fa3e1b1-b906-4fd0-aece-a97df9f1e599.png)
+![3](https://user-images.githubusercontent.com/104391555/172155350-ebfc04ba-8407-4bca-8773-a20cfb2e1f10.png)
+
 - **Sprint board update**: Sprint board screenshotları: 
 - **Ürün Durumu**: Ekran görüntüleri:
 - **Sprint Review**: 
