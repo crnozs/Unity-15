@@ -223,10 +223,24 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Kanban panosunda göz
 ![3](https://user-images.githubusercontent.com/104391555/172155350-ebfc04ba-8407-4bca-8773-a20cfb2e1f10.png)
 
 - **Sprint board update**: Sprint board screenshotları:
-- ![image](https://user-images.githubusercontent.com/104391555/172158094-fc60113a-8ac4-4e17-88ae-978ab27154e0.png)
-- ![image](https://user-images.githubusercontent.com/104391555/172158135-8eba9c77-0446-4822-9d1d-e1cec0268696.png)
+![image](https://user-images.githubusercontent.com/104391555/172158094-fc60113a-8ac4-4e17-88ae-978ab27154e0.png)
+![image](https://user-images.githubusercontent.com/104391555/172158135-8eba9c77-0446-4822-9d1d-e1cec0268696.png)
  
 - **Ürün Durumu**: Ekran görüntüleri:
+
+![Ekran görüntüsü 2022-06-06 190942](https://user-images.githubusercontent.com/104391555/172211112-57ed61f6-3ca3-4c27-8243-121828313282.png)
+
+*Resim.1.Karakterin büyülü ormandaki portalın yanındaki görünümü*
+
+![Ekran görüntüsü 2022-06-06 191245](https://user-images.githubusercontent.com/104391555/172211130-4ae1fbd6-3bd8-4d99-9341-44ca5bbd77df.png)
+
+*Resim.2.Karakter büyülü ormanda yürüken*
+
+![Ekran görüntüsü 2022-06-06 191343](https://user-images.githubusercontent.com/104391555/172211141-a4848fd7-dbcc-438b-ba42-54b4f297c280.png)
+
+*Resim.3.Karakterin büyülü ormandaki boss ile karşılaşması*
+
+
 - **Sprint Review**: 
 Alınan kararlar: Sprint Review katılımcıları: İrem Nur Eroğlu, Ceren Özsayın, Ahmet Recep Ocak, Resul Kızmaz.
 
