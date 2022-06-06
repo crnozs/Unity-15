@@ -72,7 +72,7 @@ Takım: Snow Fox Games
 
 ## Oyun İle İlgili Son Notlar
 
-Oyunun yapılan bu demo sürümü, evrenlerden iki tanesini kapsamaktadır. Geliştirilmesi planlanan oyunda, yeni ve farklı mekaniklere sahip evrenlerin eklenmesi öngörülmektedir. Demo sürüm olması sebebiyle portallardan ilk olarak yeşil olanına girilmesi gerekmektedir. Oyunun yayınlanması planlanan gerçek sürümünde ise oyuncular, istekleri doğrultusunda önlerinde sıralanan portallardan herhangi birine geçip evrenlere ışınlanabilir.
+Oyunun yapılan bu demo sürümü, evrenlerden iki tanesini kapsamaktadır. Geliştirilmesi planlanan oyunda, yeni ve farklı mekaniklere sahip evrenlerin eklenmesi öngörülmektedir. Demo sürüm olması sebebiyle, evrenlerden birinden dönüşte sorun çıktığından portallardan ilk olarak yeşil olanına girilmesi gerekmektedir. Oyunun yayınlanması planlanan gerçek sürümünde ise oyuncular, istekleri doğrultusunda önlerinde sıralanan portallardan herhangi birine geçip evrenlere ışınlanabilir ve tekrar uzay adasına geri dönüş yapabilir.
 
 ---
 
