@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - UI
+  - onlyWalk
+  - Collect2
+  - Collect1
+  - pool
+  - angel
   layers:
   - Default
   - TransparentFX

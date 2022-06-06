@@ -21,14 +21,15 @@ public class moveTowardsPlayer : MonoBehaviour
 		transform.position += (player.transform.position - transform.position).normalized * speed * Time.deltaTime;
 	}
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("Player"))
-        {
+ 
+
+	void OnCollisionEnter(Collision collision)
+	{
+		if (collision.gameObject.CompareTag("Player"))
+		{
 			StartCoroutine(screamSound());
 		}
-		
-    }
+	}
 
 	IEnumerator screamSound()
     {
