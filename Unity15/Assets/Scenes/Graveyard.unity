@@ -134,14 +134,6 @@ PrefabInstance:
       propertyPath: scene2
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 2350599962425371623, guid: 72c490bf32f538c46b4570cd1f2dbf46, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2350599962425371623, guid: 72c490bf32f538c46b4570cd1f2dbf46, type: 3}
-      propertyPath: sceneIndex
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4929527350826568352, guid: 72c490bf32f538c46b4570cd1f2dbf46, type: 3}
       propertyPath: m_Name
       value: Portal_3
